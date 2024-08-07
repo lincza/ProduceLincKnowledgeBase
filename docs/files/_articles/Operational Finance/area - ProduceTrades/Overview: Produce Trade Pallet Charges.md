@@ -1,19 +1,15 @@
-# Overview: Produce Trade Pallet Charges
+---
+layout: default
+title: Produce Trade Pallet Charges
+nav_order: 1
+---
+# Produce Trade Pallet Charges
 
 Overseas and account sale costs - as charged by the customer - can be posted directly from the produce trade by defining the costs in the *Pallet Charge Assignment* section of the produce trade.
 
-  
-
-
 Before posting a produce trade, the sum of the posting amount of the pallet charge assignments associated with the produce trade is added to the sum of the posting amount of the pallet lines and if the nett is positive, an invoice will be posted, else a credit memo.
 
-  
-
-
 It is possible to post pallet charges on produce trades without also posting trade amounts for the produce pallets.
-
-  
-
 
 Post manual Pallet Charges
 --------------------------
@@ -24,13 +20,8 @@ Post manual Pallet Charges
 * Multiple pallet charge assignment lines can be entered on the produce trade.
 * When the produce trade is posted, the Posting Amount field will clear - ready for additional posting amounts of subsequent postings. The sum of the posted pallet charges for a line will be displayed in the **Amount** and **Amount (LCY)** fields.
 
-  
-
-
 Post Standard Pallet Charges
 ----------------------------
 
 * Standard rates for Pallet Charges of treatment type *Income* can be defined in **Pallet Charge Standard Rates**. These will be added to the pallet charge assignment lines during the create/update step of a produce trade and will always be applied at the pallet lot no. level.
-
- 
 
