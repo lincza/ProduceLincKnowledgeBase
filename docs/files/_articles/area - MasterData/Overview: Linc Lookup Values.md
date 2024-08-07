@@ -1,3 +1,14 @@
+---
+author: attie
+date: 2024-00-07
+articleType: overview
+area: ArrivalQC
+title: Linc Lookup Values
+nav_order: 1
+has_children: false
+nav_exclude: false
+has_toc: false
+---
 # Overview: Linc Lookup Values
 
 Most of produce and logistic related master data are maintained in Linc Lookup Values. Various tables, pages and features in ProduceLinc point to this master data to look up and validate values.
@@ -14,59 +25,4 @@ Additional attributes and relationships between different types of master data c
 
 ## Master data that should be set up in Linc Lookup Values
 
-| Lookup Field Name         | Parent Lookup Field Name |
-| ------------------------- | ------------------------ |
-| Addendum Class Code       |                          |
-| Brand Code                |                          |
-| Channel Code              |                          |
-| Claim Code                |                          |
-| Class Code                |                          |
-| Color Code                | Commodity Code           |
-| Commercial Invoice Title  |                          |
-| Commodity Group Code      |                          |
-| Commodity Code            | Commodity Group Code     |
-| Compliance Scheme Code    |                          |
-| Container Type Code       |                          |
-| Country Code              | Region Code              |
-| Customer Quality Code     |                          |
-| Customs Deduction         |                          |
-| Defect Code               |                          |
-| Exporter                  |                          |
-| Freight Agent Code        |                          |
-| Freight Forwarder Code    |                          |
-| Freight Point             |                          |
-| Freighter Code            | Transport Method         |
-| Freighter Trip Code       | Freighter Code           |
-| Global Gap Number         |                          |
-| Haulier                   |                          |
-| Inner Pack Code           |                          |
-| Inspection Point          |                          |
-| Inspection Status         |                          |
-| Market Code               |                          |
-| Organisation Code         |                          |
-| Outer Pack Code           |                          |
-| Packhouse Code            |                          |
-| Pallet Base Code          |                          |
-| Pallet Height Code        |                          |
-| Producer Code             |                          |
-| Producer Site Code        | Producer Code            |
-| Production Area           |                          |
-| Produce Trade Claim Type  |                          |
-| Proforma Invoice Title    |                          |
-| Quality Grade Code        |                          |
-| Quality Inspection Type   |                          |
-| Quality Sample Size       |                          |
-| Region Code               |                          |
-| Rejection Reason Code     |                          |
-| Retailer Code             |                          |
-| Shipper                   |                          |
-| Shipping Temperature Code |                          |
-| Size Code                 | Commodity Code           |
-| Temptale Type Code        |                          |
-| Trade Invoice Title       |                          |
-| Trade Cr. Memo Title      |                          |
-| Trade Type                |                          |
-| Transport Method          |                          |
-| Variety Code              | Variety Group Code       |
-| Variety Group Code        |                          |
-| Warehouse Zone Code       |                          |
+<table style="min-width: 50px"><colgroup><col><col></colgroup><tbody><tr><th colspan="1" rowspan="1"><p>Lookup Field Name</p></th><th colspan="1" rowspan="1"><p>Parent Lookup Field Name</p></th></tr><tr><td colspan="1" rowspan="1"><p>Addendum Class Code</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Brand Code</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Channel Code</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Claim Code</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Class Code</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Color Code</p></td><td colspan="1" rowspan="1"><p>Commodity Code</p></td></tr><tr><td colspan="1" rowspan="1"><p>Commercial Invoice Title</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Commodity Group Code</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Commodity Code</p></td><td colspan="1" rowspan="1"><p>Commodity Group Code</p></td></tr><tr><td colspan="1" rowspan="1"><p>Compliance Scheme Code</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Container Type Code</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Country Code</p></td><td colspan="1" rowspan="1"><p>Region Code</p></td></tr><tr><td colspan="1" rowspan="1"><p>Customer Quality Code</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Customs Deduction</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Defect Code</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Exporter</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Freight Agent Code</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Freight Forwarder Code</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Freight Point</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Freighter Code</p></td><td colspan="1" rowspan="1"><p>Transport Method</p></td></tr><tr><td colspan="1" rowspan="1"><p>Freighter Trip Code</p></td><td colspan="1" rowspan="1"><p>Freighter Code</p></td></tr><tr><td colspan="1" rowspan="1"><p>Global Gap Number</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Haulier</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Inner Pack Code</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Inspection Point</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Inspection Status</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Market Code</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Organisation Code</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Outer Pack Code</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Packhouse Code</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Pallet Base Code</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Pallet Height Code</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Producer Code</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Producer Site Code</p></td><td colspan="1" rowspan="1"><p>Producer Code</p></td></tr><tr><td colspan="1" rowspan="1"><p>Production Area</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Produce Trade Claim Type</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Proforma Invoice Title</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Quality Grade Code</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Quality Inspection Type</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Quality Sample Size</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Region Code</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Rejection Reason Code</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Retailer Code</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Shipper</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Shipping Temperature Code</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Size Code</p></td><td colspan="1" rowspan="1"><p>Commodity Code</p></td></tr><tr><td colspan="1" rowspan="1"><p>Temptale Type Code</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Trade Invoice Title</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Trade Cr. Memo Title</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Trade Type</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Transport Method</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Variety Code</p></td><td colspan="1" rowspan="1"><p>Variety Group Code</p></td></tr><tr><td colspan="1" rowspan="1"><p>Variety Group Code</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Warehouse Zone Code</p></td><td colspan="1" rowspan="1"><p></p></td></tr></tbody></table>
