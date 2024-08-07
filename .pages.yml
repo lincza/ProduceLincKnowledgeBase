@@ -1,0 +1,12 @@
+media:
+  input: files/media
+  output: /files/media
+content:
+  - name: overviews
+    label: Overviews
+    path: files/_overviews
+    type: collection
+  - name: authors
+    label: Authors
+    path: files/_data/authors.json
+    type: file
