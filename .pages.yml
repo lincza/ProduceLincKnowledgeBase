@@ -1,10 +1,10 @@
 media:
-  input: files/media
-  output: /files/media
+  input: docs/files/media
+  output: /docs/files/media
 content:
-  - name: overviews
-    label: Overviews
-    path: files/_overviews
+  - name: articles
+    label: Articles
+    path: docs/files/_articles
     type: collection
     fields: 
       - name: author
@@ -29,9 +29,34 @@ content:
         type: date
         options:
           format: yyyy-mm-dd
+      - name: articleType
+        label: Article Type
+        type: select
+        options:
+          values:
+          - value: overview
+            label: Overview
+          - value: guide
+            label: Guide
       - name: title
         label: Title
         type: string
+      - name: nav_order
+        label: Navigation Order
+        type: number
+      - name: has_children
+        label: Has Children
+        type: boolean
+      - name: parent
+        label: Parent
+        type: string
+      - name: nav_exclude
+        label: Exclude from navigation
+        type: boolean
+      - name: has_toc
+        label: Generate Table of Contents
+        type: boolean
       - name: body
         label: Body
         type: rich-text
+
