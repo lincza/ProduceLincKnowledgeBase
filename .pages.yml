@@ -38,6 +38,36 @@ content:
             label: Overview
           - value: guide
             label: Guide
+      - name: area
+        label: Area
+        type: select
+        options:
+          values:
+            - value:  ArrivalQC
+            - value:  BuildUps
+            - value:  ChargeAssignments
+            - value:  Claims
+            - value:  ContainerConfirmations
+            - value:  FreightAllocations
+            - value:  LogisticsDocuments
+            - value:  LogisticsWorkflow
+            - value:  MasterData
+            - value:  PalletChargeStandards
+            - value:  PalletEditor
+            - value:  PalletFiles
+            - value:  PalletProduction
+            - value:  PalletStock
+            - value:  PalletVerification
+            - value:  PalletWizard
+            - value:  PredepartureQC
+            - value:  ProduceAccounting
+            - value:  ProduceBills
+            - value:  ProduceOrderConfirmations
+            - value:  ProduceOrders
+            - value:  ProduceTrades
+            - value:  ReinspectionQC
+            - value:  Reporting
+            - value:  SalesAllocations
       - name: title
         label: Title
         type: string
