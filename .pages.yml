@@ -6,6 +6,14 @@ content:
     label: Articles
     path: docs/files/_articles
     type: collection
+    view:
+      fields: [ area, articleType, title, author, date ]
+      primary: title
+      sort: [ area, articleType, title ]
+      default:
+        search: 'articleType, title, author, area'
+        sort: title,author,date,articleType,area
+        order: asc
     fields: 
       - name: author
         label: Author
