@@ -6,7 +6,32 @@ content:
     label: Overviews
     path: files/_overviews
     type: collection
-  - name: authors
-    label: Authors
-    path: files/_data/authors.json
-    type: file
+    fields: 
+      - name: author
+        label: Author
+        type: select
+        options:
+          values:
+          - value: attie
+            label: Attie Retief
+          - value: heidi
+            label: Heidi Malherbe
+          - value: carel
+            label: Carel de Beer
+          - value: jacoline
+            label: Jacoline Kritzinger
+          - value: janherman
+            label: Jan-Herman Troskie
+          - value: nadine
+            label: Nadine van Aswegen
+      - name: date
+        label: Date
+        type: date
+        options:
+          format: DD-MM-YYYY
+      - name: title
+        label: Title
+        type: string
+      - name: body
+        label: Body
+        type: rich-text
