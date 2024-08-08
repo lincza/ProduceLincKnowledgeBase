@@ -2,10 +2,17 @@ media:
   input: docs/files/media
   output: /docs/files/media
 content:
-  - name: introduction
-    label: Introduction
+  - name: home
+    label: Home
     path: docs/index.md
     type: file
+    fields:
+      - name: title
+        label: Title
+        type: string
+      - name: body
+        label: Body
+        type: rich-text
   - name: articles
     label: Articles
     path: docs/files/articles
