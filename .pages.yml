@@ -2,6 +2,10 @@ media:
   input: docs/files/media
   output: /docs/files/media
 content:
+  - name: introduction
+    label: Introduction
+    path: docs/index.md
+    type: file
   - name: articles
     label: Articles
     path: docs/files/articles
@@ -47,4 +51,8 @@ content:
       - name: body
         label: Body
         type: rich-text
+  - name: structure
+    label: Structure
+    path: structure.json
+    type: file
 
