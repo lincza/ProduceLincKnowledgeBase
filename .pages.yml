@@ -4,16 +4,16 @@ media:
 content:
   - name: articles
     label: Articles
-    path: docs/files/_articles
-    filename: '{nav_order} - {title}.md'
+    path: docs/files/articles
+    filename: '{title}.md'
     type: collection
     view:
-      fields: [ order, section, area, title, author, date ]
+      fields: [ title, author, date ]
       primary: title
-      sort: [ order, section, area ]
+      sort: [ title, author, date ]
       default:
-        search: 'section, title, author, area'
-        sort: order, section, area
+        search: 'title, author, date'
+        sort: title, author, dat
         order: asc
     fields: 
       - name: author
