@@ -1,0 +1,202 @@
+{
+  "articles": {
+    "Configuration": {
+      "Master Data": {
+        "files": [
+          "Linc Lookup Values.md",
+          "Linc Setup.md",
+          "Produce Seasons.md",
+          "Pallet Packing Setup.md",
+          "Point Mappings (Freight Locations).md",
+          "Lot Billing Defaults.md",
+          "Produce Trade Defaults.md",
+          "Produce Posting Setup.md"
+        ],
+        "Guides": {
+          "files": [
+            "How to set up Linc Lookup Values.md",
+            "How to set up Produce Seasons.md",
+            "How to set up Pallet Packing Setup.md",
+            "How to set up Point Mappings.md",
+            "How to set up a New Point Mapping.md",
+            "How to set up a New Ship to Code.md",
+            "How to set up a Notify Party or Consignee.md",
+            "How to set up Lot Billing Defaults.md",
+            "How to set up Produce Trade Defaults.md",
+            "Steps to complete when creating a new Customer.md",
+            "Steps to complete when creating a new port.md",
+            "Steps to complete when creating a new producer code.md",
+            "Steps to complete when creating a new transfer point.md"
+          ]
+        }
+      }
+    },
+    "Stock and Logistics": {
+      "Pallet Files": {
+        "files": [
+          "Pallet File Definition.md",
+          "Pallet File Translation.md",
+          "Pallet File Processing.md"
+        ],
+        "Guides": {
+          "files": [
+            "How to set up Pallet File Definitions.md",
+            "How to set up Pallet File Translations.md",
+            "How to set up Automatic Pallet File Imports.md",
+            "How to import a single pallet file.md",
+            "How to resolve errors and confirm pallet lines.md",
+            "How to un-confirm pallets.md",
+            "How to Undo Back to Grower.md",
+            "How to process a Pallet Creation pallet file.md",
+            "How to process a Container Confirmation pallet file.md",
+            "How to process a Pallet Verification pallet file.md",
+            "How to resolve \"File could not be mapped\".md"
+          ]
+        }
+      },
+      "Pallet Stock": {},
+      "Pallet Verification": {},
+      "Build Ups": {},
+      "Pallet Production": {
+        "files": [
+          "Pallet Production.md"
+        ],
+        "Guides": {
+          "files": [
+            "How to set up and process Pallet Production.md"
+          ]
+        }
+      },
+      "Pallet Wizard": {},
+      "Pallet Editor": {
+        "files": [
+          "Pallet Editor.md",
+          "Pallet Editor Rules.md"
+        ],
+        "Guides": {
+          "files": [
+            "How to set up Change Log for Pallets.md",
+            "How to edit pallet fields.md"
+          ]
+        }
+      },
+      "Re-inspection QC": {},
+      "Pre-departure QC": {},
+      "Logistics Workflow": {},
+      "Logistics Documents": {},
+      "Produce Orders": {
+        "Guides": {
+          "files": [
+            "How to create a Produce Order.md",
+            "How to allocate Pallets Manually.md",
+            "How to update allocated pallets intended purchase currency and price from produce orders.md"
+          ]
+        }
+      },
+      "Freight Allocations": {
+        "files": [
+          "Freight and Logistics Management.md",
+          "Freighter Trip Legs.md",
+          "Freight Containers.md"
+        ],
+        "Guides": {
+          "files": [
+            "How to perform Freight Allocation.md",
+            "How to change the trip leg of a freight container.md",
+            "How to remove pallet from Container and add a new pallet.md"
+          ]
+        }
+      },
+      "Sales Allocations": {
+        "files": [
+          "Sales Allocation.md",
+          "Salesperson Code.md"
+        ],
+        "Guides": {
+          "files": [
+            "How to Allocate Pallets for Sales.md",
+            "How to Allocate pallets with Produce Orders.md",
+            "How to select and add pallets to a Sales Allocation Batch.md",
+            "How to update prices in Produce Prices page.md"
+          ]
+        }
+      },
+      "Container Confirmations": {},
+      "Produce Order Confirmations": {}
+    },
+    "Operational Finance": {
+      "Arrival QC": {},
+      "Charge Assignments": {
+        "files": [
+          "Pallet Charge Assignments.md"
+        ],
+        "Guides": {
+          "files": [
+            "How to Post a Purchase Document for Actual Pallet Charges.md"
+          ]
+        }
+      },
+      "Claims": {},
+      "Produce Trades": {
+        "files": [
+          "Produce Trades.md",
+          "Produce Trade Posting.md",
+          "Produce Trade Pallet Charges.md"
+        ],
+        "Guides": {
+          "files": [
+            "How to use the Produce Trade Close Worksheet.md",
+            "Post Produce Trade Invoices.md",
+            "Post Produce Trade Credit Memos.md",
+            "Redirect Pallets to another Customer.md",
+            "Redirect, Remove and Return Pallets.md",
+            "Remove Pallets from Produce Trades.md",
+            "Return Pallets to Lot Billing Party.md"
+          ]
+        }
+      }
+    },
+    "Produce Accounting": {
+      "Pallet Charge Standards": {
+        "files": [
+          "Pallet Charges.md",
+          "Pallet Charge Codes.md",
+          "Pallet Charge Standard Rates.md",
+          "Variety licensors.md"
+        ]
+      },
+      "Produce Accounting": {},
+      "Produce Bills": {
+        "files": [
+          "Produce Bills.md",
+          "Advance Produce Bills.md",
+          "Cost Produce Bills.md",
+          "Produce Bill Payment Batches.md"
+        ],
+        "Guides": {
+          "files": [
+            "How to Generate Produce Bills.md",
+            "How to Post Produce Bill Invoices.md",
+            "How to add pallets to existing Produce Bills.md",
+            "How to apply Invoices and Credit Memo's.md",
+            "How to credit charges and posted bill amounts.md",
+            "How to export the produce bill sheet and import adjustments.md",
+            "How to fully credit and reverse advance bill and remove lines.md",
+            "How to process Bills in bulk.md",
+            "How to remove pallets from a cost produce bill.md",
+            "How to send Payment Advices.md"
+          ]
+        }
+      }
+    },
+    "Reporting": {
+      "Profitability Reporting": {
+        "files": [
+          "Pallet line archive - Reporting on income, costs, and gross profit.md"
+        ]
+      }
+    },
+    "Integrations": {}
+  }
+}
+

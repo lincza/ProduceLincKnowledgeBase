@@ -5,14 +5,15 @@ content:
   - name: articles
     label: Articles
     path: docs/files/_articles
+    filename: '{nav_order} - {title}.md'
     type: collection
     view:
-      fields: [ area, articleType, title, author, date ]
+      fields: [ order, section, area, title, author, date ]
       primary: title
-      sort: [ area, articleType, title ]
+      sort: [ order, section, area ]
       default:
-        search: 'articleType, title, author, area'
-        sort: title,author,date,articleType,area
+        search: 'section, title, author, area'
+        sort: order, section, area
         order: asc
     fields: 
       - name: author
@@ -37,62 +38,11 @@ content:
         type: date
         options:
           format: yyyy-mm-dd
-      - name: articleType
-        label: Article Type
-        type: select
-        options:
-          values:
-          - value: overview
-            label: Overview
-          - value: guide
-            label: Guide
-      - name: area
-        label: Area
-        type: select
-        options:
-          values:
-            - value:  ArrivalQC
-            - value:  BuildUps
-            - value:  ChargeAssignments
-            - value:  Claims
-            - value:  ContainerConfirmations
-            - value:  FreightAllocations
-            - value:  LogisticsDocuments
-            - value:  LogisticsWorkflow
-            - value:  MasterData
-            - value:  PalletChargeStandards
-            - value:  PalletEditor
-            - value:  PalletFiles
-            - value:  PalletProduction
-            - value:  PalletStock
-            - value:  PalletVerification
-            - value:  PalletWizard
-            - value:  PredepartureQC
-            - value:  ProduceAccounting
-            - value:  ProduceBills
-            - value:  ProduceOrderConfirmations
-            - value:  ProduceOrders
-            - value:  ProduceTrades
-            - value:  ReinspectionQC
-            - value:  Reporting
-            - value:  SalesAllocations
       - name: title
         label: Title
         type: string
-      - name: nav_order
-        label: Navigation Order
-        type: number
-      - name: has_children
-        label: Has Children
-        type: boolean
-      - name: parent
-        label: Parent
-        type: string
-      - name: nav_exclude
-        label: Exclude from navigation
-        type: boolean
-      - name: has_toc
-        label: Generate Table of Contents
+      - name: draft
+        label: Draft
         type: boolean
       - name: body
         label: Body
