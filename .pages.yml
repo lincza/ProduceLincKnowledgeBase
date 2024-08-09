@@ -1,6 +1,3 @@
-media:
-  input: docs/files/media
-  output: /docs/files/media
 content:
   - name: home
     label: Home
@@ -15,7 +12,7 @@ content:
         type: rich-text
   - name: articles
     label: Articles
-    path: docs/files/articles
+    path: docs/articles
     filename: '{title}.md'
     type: collection
     view:

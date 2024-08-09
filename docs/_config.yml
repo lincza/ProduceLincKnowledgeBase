@@ -1,8 +1,8 @@
 title: ProduceLinc Knowledge Base
 remote_theme: just-the-docs/just-the-docs
 color_scheme: producelinc
-logo: "files/assets/images/producelinc.png"
-favicon_ico: "files/assets/images/producelinc.ico"
+logo: "assets/images/producelinc.png"
+favicon_ico: "assets/images/producelinc.ico"
 callouts_level: loud
 
 callouts:

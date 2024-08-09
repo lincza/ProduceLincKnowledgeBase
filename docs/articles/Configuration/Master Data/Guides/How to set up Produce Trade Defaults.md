@@ -21,4 +21,4 @@ title: How to set up Produce Trade Defaults
 
 
 
-For more information on how matching rules are found, and when and how default values are applied, see [Produce Trade Defaults](/files/articles/Configuration/Master%20Data/Produce%20Trade%20Defaults)(/files/articles/Configuration/Master%20Data/Produce%20Trade%20Defaults.md)(/docs/files/articles/Configuration/Master%20Data/Produce%20Trade%20Defaults.md)(docs/files/articles/Configuration/Master Data/Produce Trade Defaults.md)(https://linc.freshdesk.com/en/support/solutions/articles/8000097808)
+For more information on how matching rules are found, and when and how default values are applied, see [Produce Trade Defaults](/articles/Configuration/Master%20Data/Produce%20Trade%20Defaults)(/articles/Configuration/Master%20Data/Produce%20Trade%20Defaults.md)(/docs/articles/Configuration/Master%20Data/Produce%20Trade%20Defaults.md)(docs/articles/Configuration/Master Data/Produce Trade Defaults.md)(https://linc.freshdesk.com/en/support/solutions/articles/8000097808)

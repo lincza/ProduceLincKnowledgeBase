@@ -1,6 +1,6 @@
 import os, frontmatter, json
 
-root = 'docs/files/articles'
+root = 'docs/articles'
 structure_file = open('structure.json')
 structure = json.load(structure_file)
 

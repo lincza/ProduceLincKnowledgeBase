@@ -35,12 +35,12 @@ How to set up and process Pallet Production
 * Note that the output pallets will inherit their fruit spec fields (excluding outer pack and inner pack) and lot billing type and Lot Billing Party from the input pallet. Fields relating to inspection (inspection points, inspection dates, reasons, etc.) on the output pallet line will be 'blank'
 * When ready click on *Actions*; then on *Post All Lines*. This action creates the new output pallet IDs and their pallet lines, registers the necessary records for usage and output in *Pallet Movement Entries* and also automatically generates the Production Document Produce Bills containing the posted output pallet lines.
 
-  
+
 
 
 Note: As soon as a pallet ID is used in production, the pallet is flagged as "used" for all member pallet lots of the pallet ID,  whether or not all the lots have been used. Such pallets are no longer available on stock and cannot be allocated to a customer.
 
-  
+
 
 
 **Complete Freight Allocation:**
@@ -60,4 +60,4 @@ If a Freight Allocation Group and Allocated Delivery Point was specified in the 
 
 
 
-For detailed information on the pallet production functionality, please read [Pallet Production](/files/articles/Stock%20and%20Logistics/Pallet%20Production/Pallet%20Production)(/files/articles/Stock%20and%20Logistics/Pallet%20Production/Pallet%20Production.md)(/docs/files/articles/Stock%20and%20Logistics/Pallet%20Production/Pallet%20Production.md)(docs/files/articles/Stock and Logistics/Pallet Production/Pallet Production.md)(https://linc.freshdesk.com/en/support/solutions/articles/8000099884)
+For detailed information on the pallet production functionality, please read [Pallet Production](/articles/Stock%20and%20Logistics/Pallet%20Production/Pallet%20Production)(/articles/Stock%20and%20Logistics/Pallet%20Production/Pallet%20Production.md)(/docs/articles/Stock%20and%20Logistics/Pallet%20Production/Pallet%20Production.md)(docs/articles/Stock and Logistics/Pallet Production/Pallet Production.md)(https://linc.freshdesk.com/en/support/solutions/articles/8000099884)

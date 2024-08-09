@@ -54,4 +54,4 @@ title: How to set up Produce Seasons
 
 
 
-For more information on produce seasons, please see [Produce Seasons](/files/articles/Configuration/Master%20Data/Produce%20Seasons)(/files/articles/Configuration/Master%20Data/Produce%20Seasons.md)(/docs/files/articles/Configuration/Master%20Data/Produce%20Seasons.md)(docs/files/articles/Configuration/Master Data/Produce Seasons.md)(https://linc.freshdesk.com/en/support/solutions/articles/8000097800)
+For more information on produce seasons, please see [Produce Seasons](/articles/Configuration/Master%20Data/Produce%20Seasons)(/articles/Configuration/Master%20Data/Produce%20Seasons.md)(/docs/articles/Configuration/Master%20Data/Produce%20Seasons.md)(docs/articles/Configuration/Master Data/Produce Seasons.md)(https://linc.freshdesk.com/en/support/solutions/articles/8000097800)
