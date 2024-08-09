@@ -2,7 +2,7 @@
 grand_parent: Produce Trades
 has_children: false
 layout: default
-nav_order: 44907
+nav_order: 41907
 parent: Guides
 title: Return Pallets to Lot Billing Party
 ---

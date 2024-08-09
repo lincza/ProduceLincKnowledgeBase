@@ -19,4 +19,4 @@ On pallet allocation and redirect of pallets to an Allocated Delivery Point, the
 
 
 
-For more information, see [Produce Trade Defaults](https://linc.freshdesk.com/en/support/solutions/articles/8000097808)
+For more information, see [Produce Trade Defaults](/files/articles/Configuration/Master%20Data/Produce%20Trade%20Defaults)(/files/articles/Configuration/Master%20Data/Produce%20Trade%20Defaults.md)(/docs/files/articles/Configuration/Master%20Data/Produce%20Trade%20Defaults.md)(docs/files/articles/Configuration/Master Data/Produce Trade Defaults.md)(https://linc.freshdesk.com/en/support/solutions/articles/8000097808)

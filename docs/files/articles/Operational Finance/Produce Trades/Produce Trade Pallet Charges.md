@@ -2,7 +2,7 @@
 grand_parent: Operational Finance
 has_children: false
 layout: default
-nav_order: 44003
+nav_order: 41003
 parent: Produce Trades
 title: Produce Trade Pallet Charges
 ---

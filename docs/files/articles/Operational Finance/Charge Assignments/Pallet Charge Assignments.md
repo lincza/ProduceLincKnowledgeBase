@@ -2,7 +2,7 @@
 grand_parent: Operational Finance
 has_children: false
 layout: default
-nav_order: 42001
+nav_order: 44001
 parent: Charge Assignments
 title: Pallet Charge Assignments
 ---

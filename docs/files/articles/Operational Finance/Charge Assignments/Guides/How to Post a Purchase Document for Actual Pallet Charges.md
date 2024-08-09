@@ -2,7 +2,7 @@
 grand_parent: Charge Assignments
 has_children: false
 layout: default
-nav_order: 42901
+nav_order: 44901
 parent: Guides
 title: How to Post a Purchase Document for Actual Pallet Charges
 ---

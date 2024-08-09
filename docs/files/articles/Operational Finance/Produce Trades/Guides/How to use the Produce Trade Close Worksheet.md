@@ -2,7 +2,7 @@
 grand_parent: Produce Trades
 has_children: false
 layout: default
-nav_order: 44901
+nav_order: 41901
 parent: Guides
 title: How to use the Produce Trade Close Worksheet
 ---

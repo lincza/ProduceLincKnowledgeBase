@@ -2,7 +2,7 @@
 grand_parent: Produce Trades
 has_children: false
 layout: default
-nav_order: 44904
+nav_order: 41904
 parent: Guides
 title: Redirect Pallets to another Customer
 ---

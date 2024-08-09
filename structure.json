@@ -125,18 +125,6 @@
       "Produce Order Confirmations": {}
     },
     "Operational Finance": {
-      "Arrival QC": {},
-      "Charge Assignments": {
-        "files": [
-          "Pallet Charge Assignments.md"
-        ],
-        "Guides": {
-          "files": [
-            "How to Post a Purchase Document for Actual Pallet Charges.md"
-          ]
-        }
-      },
-      "Claims": {},
       "Produce Trades": {
         "files": [
           "Produce Trades.md",
@@ -154,6 +142,18 @@
             "Return Pallets to Lot Billing Party.md"
           ]
         }
+      },
+      "Arrival QC": {},
+      "Claims": {},
+      "Charge Assignments": {
+        "files": [
+          "Pallet Charge Assignments.md"
+        ],
+        "Guides": {
+          "files": [
+            "How to Post a Purchase Document for Actual Pallet Charges.md"
+          ]
+        }
       }
     },
     "Produce Accounting": {
@@ -165,7 +165,6 @@
           "Variety licensors.md"
         ]
       },
-      "Produce Accounting": {},
       "Produce Bills": {
         "files": [
           "Produce Bills.md",
@@ -187,7 +186,8 @@
             "How to send Payment Advices.md"
           ]
         }
-      }
+      },
+      "Produce Accounting": {}
     },
     "Reporting": {
       "Profitability Reporting": {
@@ -199,4 +199,3 @@
     "Integrations": {}
   }
 }
-

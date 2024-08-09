@@ -1,0 +1,10 @@
+@import "./color_schemes/dark";
+
+$link-color: #70b500;
+$content-width: 60rem;
+$nav-width: 20rem;
+$nav-list-item-height: $sp-6;
+$header-height: 3.75rem;
+$feedback-color: darken($link-color, 20%);
+// $feedback-color: #e4ffb7;
+

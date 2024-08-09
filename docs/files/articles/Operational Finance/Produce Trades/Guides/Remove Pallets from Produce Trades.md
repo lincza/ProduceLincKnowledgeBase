@@ -2,7 +2,7 @@
 grand_parent: Produce Trades
 has_children: false
 layout: default
-nav_order: 44906
+nav_order: 41906
 parent: Guides
 title: Remove Pallets from Produce Trades
 ---

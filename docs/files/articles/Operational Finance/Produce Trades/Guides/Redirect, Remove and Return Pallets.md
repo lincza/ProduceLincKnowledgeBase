@@ -2,7 +2,7 @@
 grand_parent: Produce Trades
 has_children: false
 layout: default
-nav_order: 44905
+nav_order: 41905
 parent: Guides
 title: Redirect, Remove and Return Pallets
 ---

@@ -21,7 +21,7 @@ What does it do?
 How do I process a container confirmation file?
 
 * Choose the container confirmation purpose in the pallet file header (Outbound / Transfer / Inbound)
-* Resolve normal validation errors first. For more information, see:  [# How to resolve errors and confirm pallet lines](https://linc.freshdesk.com/en/support/solutions/articles/8000097826)
+* Resolve normal validation errors first. For more information, see:  [How to resolve errors and confirm pallet lines](/files/articles/Stock%20and%20Logistics/Pallet%20Files/Guides/How%20to%20resolve%20errors%20and%20confirm%20pallet%20lines)
 * Once lines are validated, the system tries to find a Matched Pallet ID and Matched Pallet Lot No. (just like it would do for a pallet verification file, since a container confirmation file can also compare and update fields on the pallets in the system)
 * Compare errors are generated (if any exist) as it would for a pallet verification file. Fix the values on the lines or ignore the errors.
 * Once ALL lines in the file are validated and have a Matched Pallet ID and Matched Pallet Lot No. the system will try to find the trip leg and container for each pallet and auto-populate these values in the Compare Freight Trip Leg and Compare Freight Container fields. It searches only in trip legs and containers for the Container Confirmation Purpose you have chosen in the header. Thus, if you chose ‘Outbound’, it would ignore transfer and inbound legs, etc.

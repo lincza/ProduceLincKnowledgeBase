@@ -60,4 +60,4 @@ If a Freight Allocation Group and Allocated Delivery Point was specified in the 
 
 
 
-For detailed information on the pallet production functionality, please read [Pallet Production](https://linc.freshdesk.com/en/support/solutions/articles/8000099884)
+For detailed information on the pallet production functionality, please read [Pallet Production](/files/articles/Stock%20and%20Logistics/Pallet%20Production/Pallet%20Production)(/files/articles/Stock%20and%20Logistics/Pallet%20Production/Pallet%20Production.md)(/docs/files/articles/Stock%20and%20Logistics/Pallet%20Production/Pallet%20Production.md)(docs/files/articles/Stock and Logistics/Pallet Production/Pallet Production.md)(https://linc.freshdesk.com/en/support/solutions/articles/8000099884)

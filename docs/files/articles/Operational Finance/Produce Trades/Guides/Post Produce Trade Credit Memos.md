@@ -2,7 +2,7 @@
 grand_parent: Produce Trades
 has_children: false
 layout: default
-nav_order: 44903
+nav_order: 41903
 parent: Guides
 title: Post Produce Trade Credit Memos
 ---

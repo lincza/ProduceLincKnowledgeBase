@@ -25,7 +25,7 @@ A number of fields are provided in the *ProduceLinc* section to specify the numb
 - Pooling Keys Nos.
 
 ## Check Pallet Mandatory Fields
-If switched on, the system will prevent the confirmation of lines on pallet file entries if values for any of the mandatory fields are not present as per the rules defined in**Pallet Line Mandatory Fields**. For more information, see **[# How to resolve errors and confirm pallet lines](https://linc.freshdesk.com/en/support/solutions/articles/8000097826).**
+If switched on, the system will prevent the confirmation of lines on pallet file entries if values for any of the mandatory fields are not present as per the rules defined in **Pallet Line Mandatory Fields**. For more information, see [How to resolve errors and confirm pallet lines](/files/articles/Stock%20and%20Logistics/Pallet%20Files/Guides/How%20to%20resolve%20errors%20and%20confirm%20pallet%20lines).
 
 ## Trade Exch. Rate Date Basis
 Define the default date basis on which the currency factor for the posting of produce trades must be based. Options include *Posting Date*, *Estimated Departure Week*, *Actual Departure Week*, *Estimated Arrival Week,**Actual Arrival Week*and *Container Load Date*.
