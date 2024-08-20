@@ -88,7 +88,7 @@
         "Guides": {
           "files": [
             "How to create an Outbound Produce Order.md",
-            "How to allocate Pallets Manually.md",
+            "How to manually allocate Outbound Produce Orders.md",
             "How to update allocated pallets intended purchase currency and price from produce orders.md"
           ]
         }
