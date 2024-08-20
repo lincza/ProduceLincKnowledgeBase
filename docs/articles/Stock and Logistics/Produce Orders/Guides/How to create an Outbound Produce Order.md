@@ -1,6 +1,12 @@
 ---
+grand_parent: Produce Orders
+has_children: false
+layout: default
+nav_order: 42901
+parent: Guides
 title: How to create an Outbound Produce Order
 ---
+
 # How to create an Outbound Produce Order
 
 1.  Search for Produce Orders

@@ -2,7 +2,7 @@
 grand_parent: Produce Bills
 has_children: false
 layout: default
-nav_order: 53909
+nav_order: 52909
 parent: Guides
 title: How to remove pallets from a cost produce bill
 ---

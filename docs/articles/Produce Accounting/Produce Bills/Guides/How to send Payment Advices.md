@@ -2,7 +2,7 @@
 grand_parent: Produce Bills
 has_children: false
 layout: default
-nav_order: 53910
+nav_order: 52910
 parent: Guides
 title: How to send Payment Advices
 ---
