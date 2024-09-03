@@ -34,4 +34,3 @@ The remaining fields in **Pallet Charge Standard Rates** are filter fields that 
 A standard rate is set up with a filter value of CI in the Commodity Group Code field, and no specified filter in Outer Pack Code. This charge will calculate for pallet lots where the Commodity Group Code is CI, irrespective of the Outer Pack Code value. The charge will not calculate for pallet lots where the Commodity Group Code is not CI.
 
 ```
-

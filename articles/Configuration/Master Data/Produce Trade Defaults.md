@@ -2,7 +2,7 @@
 grand_parent: Configuration
 has_children: false
 layout: default
-nav_order: 21007
+nav_order: 21008
 parent: Master Data
 title: Produce Trade Defaults
 ---

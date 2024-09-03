@@ -2,7 +2,7 @@
 grand_parent: Configuration
 has_children: false
 layout: default
-nav_order: 21005
+nav_order: 21007
 parent: Master Data
 title: Point Mappings (Freight Locations)
 ---

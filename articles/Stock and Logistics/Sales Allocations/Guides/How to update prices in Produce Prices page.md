@@ -8,4 +8,3 @@ title: How to update prices in Produce Prices page
 ---
 
 How to update prices in Produce Prices page
-

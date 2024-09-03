@@ -2,7 +2,7 @@
 grand_parent: Configuration
 has_children: false
 layout: default
-nav_order: 21006
+nav_order: 21005
 parent: Master Data
 title: Lot Billing Defaults
 ---
