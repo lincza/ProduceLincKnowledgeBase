@@ -86,6 +86,10 @@
       "Logistics Workflow": {},
       "Logistics Documents": {},
       "Produce Orders": {
+        "files": [
+          "Outbound Produce Orders.md",
+          "Transfer Produce Orders.md"
+        ],
         "Guides": {
           "files": [
             "How to create an Outbound Produce Order.md",
