@@ -60,7 +60,7 @@ Input pallets are marked as *used* on all of the pallet IDs member pallet lots. 
 
 
 
-The history of pallet production is tracked in *Pallet Movement Entries* where usage and output events are logged when pallet production lines are processed. For each pallet production line two entries are stored in *Pallet Movement Entries*. The first entry is of type *usage* and shows the used pallet ID, pallet lot and quantity. The second entry is of type *output* and shows the output pallet ID, generated pallet lot no. and output quantity. The Production Document No. as was entered on the pallet production lines are also stored in a field in *Pallet Movement Entries*. By filtering the pallet movement entries by Document No. it is thus eg. possible to see the full details of the ‘run’ that was processed.
+The history of pallet production is tracked in *Pallet Movement Entries* where usage and output events are logged when pallet production lines are processed. For each pallet production line two entries are stored in *Pallet Movement Entries*. The first entry is of type *usage* and shows the used pallet ID, pallet lot and quantity. The second entry is of type *output* and shows the output pallet ID, generated pallet lot no. and output quantity. The Production Document No. as was entered on the pallet production lines are also stored in a field in *Pallet Movement Entries*. By filtering the pallet movement entries by Document No. it is thus eg. possible to see the full details of the 'run’ that was processed.
 
 
 
@@ -70,7 +70,7 @@ The history of pallet production is tracked in *Pallet Movement Entries* where u
 
 
 
-When pallet production lines are processed, *production document*cost produce bills are automatically generated for the output pallets. (The bill grouping basis of these cost produce bills are *Production Document*, and this is what set them apart from ‘normal’ cost produce bills.)
+When pallet production lines are processed, *production document*cost produce bills are automatically generated for the output pallets. (The bill grouping basis of these cost produce bills are *Production Document*, and this is what set them apart from 'normal’ cost produce bills.)
 
 
 
@@ -80,7 +80,7 @@ When pallet production lines are processed, *production document*cost produce bi
 
 
 
-Produce Trade Entries of the output lots are reallocated to the relevant input lots – essentially by generating ‘system’ produce trade entries for the input lots. In the same way income charges and actual costs posted for output lots are also reallocated by generating ‘system’ pallet charge entries for the related input lots.
+Produce Trade Entries of the output lots are reallocated to the relevant input lots – essentially by generating 'system’ produce trade entries for the input lots. In the same way income charges and actual costs posted for output lots are also reallocated by generating 'system’ pallet charge entries for the related input lots.
 
 
 
@@ -92,7 +92,7 @@ Output pallet lots’ revenue and costs are apportioned based on the following l
 
 * The system first finds the output pallet’s*Production Output Batch*. In cases where *Lot Specific Tracking*is used, this value will be the input pallet lot number itself. Else, it is the Production Batch No.
 * Input pallets are then filtered for this batch number/pallet lot number to find the input pallet lot(s) that were involved in producing the output pallets.
-* Each found input pallet lot’s ‘percentage contribution’ to the batch is then calculated based on its net weight as a percentage of the total batch weight. If *Lot Specific Tracking* is used, the input lot’s percentage contribution would be 100%.
+* Each found input pallet lot’s 'percentage contribution’ to the batch is then calculated based on its net weight as a percentage of the total batch weight. If *Lot Specific Tracking* is used, the input lot’s percentage contribution would be 100%.
 * The revenue or cost of the output pallet lot is then multiplied by the input pallet lot’s percentage contribution to calculate the input pallet lot’s apportioned revenue and cost
 
 

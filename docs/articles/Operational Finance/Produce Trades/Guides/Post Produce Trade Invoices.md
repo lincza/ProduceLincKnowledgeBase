@@ -19,7 +19,7 @@ In the header (General) section:
 
 * Choose a Trade Type in the header and fill in External Document No. (these two fields must have values – else you will get an error when you try to post the invoice/credit memo)
 
-  
+
 
 
 In the Posting section:
@@ -29,7 +29,7 @@ In the Posting section:
 * Fill in posting description and reference
 * Tick the box for “Final”
 
-  
+
 
 
 Prepare the posting prices for Produce trade lines (the detail lines where you can see the pallets)
@@ -61,14 +61,14 @@ Prepare pallet charge assignments (costs that are charged to you by the customer
 
 Review the totals before you post
 
-* Use the produce trade factbox to review the totals that will be posted for pallets and charge assignments in the ‘posting amounts’ section. (Click on the circle in the top right corner of the page to show/hide the factbox).
+* Use the produce trade factbox to review the totals that will be posted for pallets and charge assignments in the 'posting amounts’ section. (Click on the circle in the top right corner of the page to show/hide the factbox).
 
 
 
 Post the invoice
 
-* Click on ‘release’ in the page menu
-* Then click on ‘post’
+* Click on 'release’ in the page menu
+* Then click on 'post’
 
 
 

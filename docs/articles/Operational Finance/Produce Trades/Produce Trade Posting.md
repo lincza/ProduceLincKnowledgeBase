@@ -9,16 +9,16 @@ title: Produce Trade Posting
 
 # Produce Trade Posting
 
-The posting of a Produce Trade generates a Business Central sales invoice (if the sum of posting amounts is positive) or sales credit memo (if the sum of posting amounts is negative). 
+The posting of a Produce Trade generates a Business Central sales invoice (if the sum of posting amounts is positive) or sales credit memo (if the sum of posting amounts is negative).
 
-The individual posting amounts of the produce trade lines (pallets) and pallet charges are populated as lines on the sales document and will post to the relevant G/L Account/s as defined in **Interim Sales Account** in **Produce Posting Setup**. 
+The individual posting amounts of the produce trade lines (pallets) and pallet charges are populated as lines on the sales document and will post to the relevant G/L Account/s as defined in **Interim Sales Account** in **Produce Posting Setup**.
 
 In cases where **Defer Sales** in **Linc Setup** is not switched on, the posting amounts for pallets with a *Purchase* Lot Billing Type will post to the **Final Sales Account**.
 
 How to post an invoice or credit memo for the produce trade
 -----------------------------------------------------------
 
-* Select the **Trade Type** in the produce trade header. The **Trade Type** can be used to distinguish between different types of sales, for example ‘fixed price’ trades and ‘account sale’ trades. Trade types can be set up as master data in **Linc Lookup Values**.
+* Select the **Trade Type** in the produce trade header. The **Trade Type** can be used to distinguish between different types of sales, for example 'fixed price’ trades and 'account sale’ trades. Trade types can be set up as master data in **Linc Lookup Values**.
 * Complete the **External Document No.** in the header. The customer’s order number would typically be used for this field.
 * The **Trade Type** and **External Document No.** are mandatory fields for posting invoices and credit memo’s, but once you have entered the values before the posting of the first invoice, the values will remain for subsequent postings.
 * In the *Posting Section* of the produce trade: select *Invoice* or *Credit Memo* as the **Posting Type**and choose the **Posting Date**. Should the exchange rate be based on a different date than the posting date, an alternative option can be set up in **Linc Setup**. This option will default to **Trade Exch. Rate Date Basis.** The applicable exchange rate will be visible under **Trade Exch. Rate Date.**In the case where the source date changes, the **Exch. Rate Date Change Pending** flag will be switched on. The **Currency Factor** will auto-populate from the Exchange Rates, based on the produce trade currency and exchange rate basis of the invoice or credit memo. The **Payment Terms Code** will default from the customer card, but can be manually edited before posting. Enter values in **Your Reference** and **Posting Description**. **Final Posting** can be switched on or off to distinguish between advance and final invoices/credit memo’s. Note that a produce trade can only be **Closed** if at least one of the posted documents was a final posting.
