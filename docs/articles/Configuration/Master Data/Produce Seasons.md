@@ -19,8 +19,8 @@ Produce seasons are defined for combinations of Commodity Group, Inbound Channel
 
 **Example**:
 
-* Grapes produced locally (inbound channel “L”) and exported (outbound channel “E”) could have start and end dates defined as 1st Nov 2021 to 31st May 2022 for the 2022 season grouping
-* Grapes that are imported (inbound channel “I”) and sold locally (outbound channel “L”) for the 2022 season can have start dates from 1st May 2022 to 31st October 2022
+* Grapes produced locally (inbound channel "L") and exported (outbound channel "E") could have start and end dates defined as 1st Nov 2021 to 31st May 2022 for the 2022 season grouping
+* Grapes that are imported (inbound channel "I") and sold locally (outbound channel "L") for the 2022 season can have start dates from 1st May 2022 to 31st October 2022
 
 | **Produce Season Code** | **Commodity Group Code** | **Inbound Channel Code** | **Outbound Channel Code** | **Start Date** | **End Date** |
 | --- | --- | --- | --- | --- | --- |
@@ -38,3 +38,4 @@ Produce Seasons are marked as *Current* or *Non-Current*. This has the following
 Thus, a produce season code should only be marked as non-current in **Produce Seasons** once all transactions for the pallet have been completed; including the final payment to the producer.
 
 For information on how to set up produce seasons, please see [# How to set up Produce Seasons](https://linc.freshdesk.com/en/support/solutions/articles/8000097801)
+

@@ -33,6 +33,6 @@ title: Steps to complete when creating a new port
 
 1. Navigate to Linc Lookup Values
 2. Filter the Linc Lookup Field name for Freight Point
-3. After the table is filtered, select the “New” button
+3. After the table is filtered, select the "New" button
 4. Under the code field, give a code that will make sense for the customer and populate the description field with the customer name or ship to code:
 5. ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/8131426614/original/VbJ2oo0dHF2VQ7VATIWeCZSZFrGte55kxg.png?1718787575)

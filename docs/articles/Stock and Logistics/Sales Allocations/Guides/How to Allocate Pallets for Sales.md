@@ -57,7 +57,7 @@ Option 2: Allocate from Pallet Allocation Summary
 
 * After you have added pallets to your batch (using Pallet Selection), search for **Pallet Allocation Summary**
 * Use the summary buttons / filter fields in the summary section / filters in the bottom section to find and filter for the pallets that you want to allocate for sales
-* To allocate: Use the fields in the “Pallet Allocation” section of the Pallet Allocation Summary page to assign values to **selected** pallets. (fill in the value in the 'input' fields and click on the three dots to assign)
+* To allocate: Use the fields in the "Pallet Allocation" section of the Pallet Allocation Summary page to assign values to **selected** pallets. (fill in the value in the 'input' fields and click on the three dots to assign)
 
 
 
@@ -68,7 +68,7 @@ Option 2: Allocate from Pallet Allocation Summary
 * If Batch Purpose = Freight Allocation only Freight Allocation Group and Allocated Transfer Point can be assigned/modified and trip legs populated. A Freight Allocation batch will not allow assignment/modification to allocated delivery point/allocated customer or any of the prices
 * You must assign a Sales Allocation Group before you can assign an Allocated Delivery Point
 * Salesperson Code: the default is inserted when Allocated Delivery Point is assigned (based on either customer setup, user setup or produce trade defaults). If no default salesperson is found, the system will show an error. You can override the salesperson code (assign a different value) if the scenario requires it
-* Intended Sales and Purchase Prices and Currencies: these four fields must have values by the time the produce trade is created. A “BLANK” currency code implies ZAR. Intended Sales Price and Intended Sales Currency Code are allocated together. Thus, when user clicks the three dots next to any of these two fields, it assigns both the price and currency, and then clears both fields again. The same principle applies to Intended Purchase Price and Intended Purchase Currency Code.
+* Intended Sales and Purchase Prices and Currencies: these four fields must have values by the time the produce trade is created. A "BLANK" currency code implies ZAR. Intended Sales Price and Intended Sales Currency Code are allocated together. Thus, when user clicks the three dots next to any of these two fields, it assigns both the price and currency, and then clears both fields again. The same principle applies to Intended Purchase Price and Intended Purchase Currency Code.
 
 
 

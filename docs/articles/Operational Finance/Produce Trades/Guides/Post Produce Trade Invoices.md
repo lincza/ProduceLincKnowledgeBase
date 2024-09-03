@@ -27,7 +27,7 @@ In the Posting section:
 * Choose invoice as the document type
 * Fill in the posting date
 * Fill in posting description and reference
-* Tick the box for “Final”
+* Tick the box for "Final"
 
 
 
@@ -39,11 +39,11 @@ Use the buttons in the menu just above the pallet lines in the trade to assist y
 
 
 
-* To post the full intended sales price, select all lines and then choose “apply remaining posting price”
-* To enter other values than the intended sales prices, select the relevant lines, then enter a value in “posting price”; then choose “apply posting price”. You can also manually enter posting prices on the individual lines
+* To post the full intended sales price, select all lines and then choose "apply remaining posting price"
+* To enter other values than the intended sales prices, select the relevant lines, then enter a value in "posting price"; then choose "apply posting price". You can also manually enter posting prices on the individual lines
 * If MGP sales prices exist and you wish to invoice these, select the relevant lines and choose
 
-            “apply minimum sales guarantee prices”
+            "apply minimum sales guarantee prices"
 
 
 
@@ -75,5 +75,5 @@ Post the invoice
 
 Print and email the invoice
 
-* In the “Produce Trade Documents” section of the factbox: choose the posted invoice that you want to print and/or email
-* Then click on the down-arrow next to “Produce Trade Documents” to see a list of available actions, and choose the relevant action (print, email…)
+* In the "Produce Trade Documents" section of the factbox: choose the posted invoice that you want to print and/or email
+* Then click on the down-arrow next to "Produce Trade Documents" to see a list of available actions, and choose the relevant action (print, email…)

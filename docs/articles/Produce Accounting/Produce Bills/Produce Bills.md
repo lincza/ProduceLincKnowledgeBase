@@ -14,7 +14,7 @@ A Produce Bill is the mechanism through which advances are calculated and posted
 
 
 
-The function and “behaviour” of a produce bill is governed by the purpose for which it was created, eg. *Advance*, *Cost* or *Forecast*. This purpose is selected by the user when generating the produce bill.
+The function and "behaviour" of a produce bill is governed by the purpose for which it was created, eg. *Advance*, *Cost* or *Forecast*. This purpose is selected by the user when generating the produce bill.
 
 
 

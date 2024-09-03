@@ -26,5 +26,5 @@ How do I process a pallet verification file?
 To do a full reconciliation of the pallets in the file versus the pallets for that location (Current Freight Point),
 
 * choose the Verification Freight Point in the header of the pallet file entry for which this reconciliation must be done.
-* In this “Verification Freight Point” mode the pallet verification file will do everything as per the notes above, but also insert lines for pallets that it finds in the system at that Current Freight Point, but that are not in the file.
+* In this "Verification Freight Point" mode the pallet verification file will do everything as per the notes above, but also insert lines for pallets that it finds in the system at that Current Freight Point, but that are not in the file.
 * These are typically pallets that may have already loaded and are no longer in stock at the location (and thus not in their stock file), but for which the freighter trip leg has not yet been 'arrived' (i.e., the Current Freight Point of the pallets have not yet been updated to the new location) or the produce trade has not yet been created.
