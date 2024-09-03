@@ -26,7 +26,7 @@ How to set up and process Pallet Production
 * Choose a **Warehouse Zone Code**
 * Choose a **Production Date.** This becomes the pack date and confirmation date for the output pallet lines. Also stored as the *Pallet Date* in pallet movement entries for the usage and output.
 * Choose a **Usage Pallet ID** and **Usage Pallet Lot No.**
-* Enter the **Usage Quantity**. Full quantity of the pallet lot does not have to be used - thus no need to split lots beforehand if you intend to use less than the quantity of the pallet lot.  On posting of the production lines, an error check is done to ensure that the usage quantity does not exceed the 'remaining' quantity of the lot.
+* Enter the **Usage Quantity**. Full quantity of the pallet lot does not have to be used - thus no need to split lots beforehand if you intend to use less than the quantity of the pallet lot.  On posting of the production lines, an error check is done to ensure that the usage quantity does not exceed the 'remaining' quantity of the lot.
 * Enter a **Output Pallet ID**
 * Choose a **Output Pallet Base Code** and a **Output Pallet Height Code:** If left *blank*, the output pallet will inherit its base and height code from the input pallet used. Alternatively, a different base and height code can be entered for the output pallet.
 * Choose a **Output Outer Pack Code** and **Output Inner Pack Code**
@@ -38,7 +38,7 @@ How to set up and process Pallet Production
 
 
 
-Note: As soon as a pallet ID is used in production, the pallet is flagged as "used" for all member pallet lots of the pallet ID,  whether or not all the lots have been used. Such pallets are no longer available on stock and cannot be allocated to a customer.
+Note: As soon as a pallet ID is used in production, the pallet is flagged as "used" for all member pallet lots of the pallet ID,  whether or not all the lots have been used. Such pallets are no longer available on stock and cannot be allocated to a customer.
 
 
 
@@ -60,4 +60,4 @@ If a Freight Allocation Group and Allocated Delivery Point was specified in the 
 
 
 
-For detailed information on the pallet production functionality, please read [Pallet Production](/articles/Stock%20and%20Logistics/Pallet%20Production/Pallet%20Production)(/articles/Stock%20and%20Logistics/Pallet%20Production/Pallet%20Production.md)(/docs/articles/Stock%20and%20Logistics/Pallet%20Production/Pallet%20Production.md)(docs/articles/Stock and Logistics/Pallet Production/Pallet Production.md)(https://linc.freshdesk.com/en/support/solutions/articles/8000099884)
+For detailed information on the pallet production functionality, please read [Pallet Production](/articles/Stock%20and%20Logistics/Pallet%20Production/Pallet%20Production)(/articles/Stock%20and%20Logistics/Pallet%20Production/Pallet%20Production.md)(/docs/articles/Stock%20and%20Logistics/Pallet%20Production/Pallet%20Production.md)(docs/articles/Stock and Logistics/Pallet Production/Pallet Production.md)(https://linc.freshdesk.com/en/support/solutions/articles/8000099884)

@@ -11,11 +11,11 @@ Produce Bill Payment Batches
 
 Easier for users who deal with Bills
 
-1.    export Produce Bill Sheet for the whole batch
+1.    export Produce Bill Sheet for the whole batch
 
-2.     submit Bill lines
+2.     submit Bill lines
 
-3.     to mark bills as Final Processed
+3.     to mark bills as Final Processed
 
 
 
@@ -72,4 +72,4 @@ Click on Create Final Payment Batch
 
 
 
-Batch can now be viewed in  Produce Payment Batches page
+Batch can now be viewed in  Produce Payment Batches page

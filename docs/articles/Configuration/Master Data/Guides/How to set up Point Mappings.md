@@ -27,7 +27,7 @@ Customer Freight Points
 * Choose a**Freight Point** (from Linc Lookup Values)
 * Select *Customer* as the **Mapping Type**
 * Map the freight point to a **Mapping Parent No.** (Customer No.)
-* Select a**Mapping Code** (a Ship-to Code that is linked to the selected Customer No. in **Mapping Parent No.**) **Mapping Name**will auto-populate.
+* Select a**Mapping Code** (a Ship-to Code that is linked to the selected Customer No. in **Mapping Parent No.**) **Mapping Name**will auto-populate.
 * **Region Code** and **Country Code** are optional fields for Customer Freight Points. If values are defined, these values are used to update the **Next Freight Point Region** and **Current Freight Point Region** of pallet lines that are allocated to the Freight Point when the related Freighter Trip Leg is set as *Departed* and *Arrived.*
 * **Consignee No.** and **Notify Party No.** are also not mandatory, but can be defined where default values can be linked to a Customer Freight Point. During pallet line container population, the default consignee and notify party is added to the Container. These fields have a lookup to Business Central's **Contacts** master data, and values must first be set up in **Contacts**.
 

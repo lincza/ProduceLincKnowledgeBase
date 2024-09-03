@@ -32,7 +32,7 @@ To reverse Bill Amounts
 * To prepare for posting a **full credit** for a produce bill line's Posted Bill Amount, go to the Adjusted Bill amount (PCY) field and fill in zero
 * To prepare for posting a **partial credit**, go to Adjusted Bill Amount (PCY) and enter the amount you want the total posted amount to be after the posting
 * Step off the line for Posting Amount (LCY) and Posting Amount (PCY) to be populated with the credit amount
-* Check that the Posting amount is the correct amount that should be credited
+* Check that the Posting amount is the correct amount that should be credited
 * Fill in Posting Credit Reason Code
 * Use the *Posting Amounts*section of the factbox to check that the total credit amount you are about to post is correct
 * Click on *Request Approval,**Release* and **Post**to generate a purchase credit memo

@@ -93,4 +93,5 @@ If switched on, Solas Method 2 can be selected for freight containers even if so
 Select the default Solas Method (Method 1 or Method 2) that should be used when new freight containers are created. The Solas method on individual freight containers can be modified after creation.
 
 ## Suppress Allocation Batching
- If switched on, access to *pallet selection summary* is prevented. Allocations can then be imported from Excel using the *import allocation batch* function on pallet allocation summary, but without requiring users to first add the pallet lines to an allocation batch. The import temporarily adds all pallet lines with allocation values in the Excel file to the import user's batch, and thus make them visible on pallet allocation summary after the import.
+ If switched on, access to *pallet selection summary* is prevented. Allocations can then be imported from Excel using the *import allocation batch* function on pallet allocation summary, but without requiring users to first add the pallet lines to an allocation batch. The import temporarily adds all pallet lines with allocation values in the Excel file to the import user's batch, and thus make them visible on pallet allocation summary after the import.
+

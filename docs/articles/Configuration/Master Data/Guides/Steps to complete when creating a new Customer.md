@@ -27,13 +27,13 @@ title: Steps to complete when creating a new Customer
 
 
 
-       2. Create Ship To Address
+       2. Create Ship To Address
 
 * On the Customer Card, go to *Menu, Navigate, Ship To Addresses*
 * Create new Ship To Address code
 * This will be the code used by the Commercial team when allocating pallets (Allocated Delivery Point)
 
-      3.  Point Mappings
+      3.  Point Mappings
 
 * Search for **Point Mappings**
 * Choose a**Freight Point** (from Linc Lookup Values)
@@ -54,15 +54,15 @@ title: Steps to complete when creating a new Customer
 
 
 
-       4.  Set up Document Layouts per Customer
+       4.  Set up Document Layouts per Customer
 
 * On the Customer Card, go to *Menu, Navigate, Document Layouts*
 * Set up email addresses for each of the following, should you wish to send documents via email:
 
-           a) Produce Trade Invoice (Report ID 50073)
+           a) Produce Trade Invoice (Report ID 50073)
 
-           b) Produce Trade Credit Memo (Report ID 50072)
+           b) Produce Trade Credit Memo (Report ID 50072)
 
-           c) Customer Statement (Report ID 50085)
+           c) Customer Statement (Report ID 50085)
 
 * Email addresses should be separated by ; and can be up to 200 characters

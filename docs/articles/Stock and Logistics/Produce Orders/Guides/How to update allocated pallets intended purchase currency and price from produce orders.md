@@ -18,12 +18,12 @@ You may have noticed that the intended purchase currency and price on the alloca
 **Here's how this works:**
 ==========================
 
-  
+
 
 
 A user allocates a pallet from a produce order line that has an intended purchase currency and price, or they modify the intended purchase currency and price on a produce order line that has allocated pallet(s).
 
-  
+
 
 
 The allocated pallet is then subjected to a few tests to see if
@@ -55,7 +55,7 @@ If the pallet is not on ANY produce bill yet AND if the vendor of the pallet is 
 The pallet is NOT on any produce bill, but the vendor may only be paid in a specific currency
 ---------------------------------------------------------------------------------------------
 
-If the vendor is limited to a specific currency and the intended purchase currency entered on the order line is different, then the system keeps the intended purchase currency of the allocated pallet and updates the pallet's intended purchase price with a converted value.
+If the vendor is limited to a specific currency and the intended purchase currency entered on the order line is different, then the system keeps the intended purchase currency of the allocated pallet and updates the pallet's intended purchase price with a converted value.
 
 
 

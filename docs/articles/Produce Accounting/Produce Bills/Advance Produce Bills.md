@@ -39,7 +39,7 @@ Adjust Advance Amounts
 
 ### **Manual adjustments**
 
-It is possible to adjust the posting amounts for advances by manually entering values in **Adjusted Bill Amount (PCY)**. When values are entered in this field, the **Posting Amount (PCY)** for the pallet lot is updated to the newly entered value and the **Adjusted Bill Amount (PCY)** cleared again.
+It is possible to adjust the posting amounts for advances by manually entering values in **Adjusted Bill Amount (PCY)**. When values are entered in this field, the **Posting Amount (PCY)** for the pallet lot is updated to the newly entered value and the **Adjusted Bill Amount (PCY)** cleared again.
 
 Note that adjustments are only allowed if the produce bill is in *Bill Calculated* status. Use the **Calculate Bill** function in
 
@@ -50,11 +50,11 @@ the menu to first update the status from *Charges Calculated* to *Bill Calculate
 
 ### **Import multiple adjustments**
 
-Adjustments can also be made in the Excel-based **Produce Bill Sheet**, and then imported again. This is an efficient method for adjusting the posting values for multiple produce bill lines, and even across multiple produce bills.
+Adjustments can also be made in the Excel-based **Produce Bill Sheet**, and then imported again. This is an efficient method for adjusting the posting values for multiple produce bill lines, and even across multiple produce bills.
 
-To export the **Produce Bill Sheet**, go to the **Produce Bills** page, choose **Export Produce Bill Sheet**and use the filter fields in the options screen to define which produce bills must be exported. Then choose **OK** and open the generate Excel workbook.
+To export the **Produce Bill Sheet**, go to the **Produce Bills** page, choose **Export Produce Bill Sheet**and use the filter fields in the options screen to define which produce bills must be exported. Then choose **OK** and open the generate Excel workbook.
 
-The advance amounts can now be adjusted by entering new amounts to be paid (per Outer Pack) in the **New Price Per Outer Pack** column of the Excel sheet. Dynamic formulas in the Excel sheet will update the **Adjusted Amount to Import (PCY)**. When all adjustments are made and reviewed, save the Excel file.
+The advance amounts can now be adjusted by entering new amounts to be paid (per Outer Pack) in the **New Price Per Outer Pack** column of the Excel sheet. Dynamic formulas in the Excel sheet will update the **Adjusted Amount to Import (PCY)**. When all adjustments are made and reviewed, save the Excel file.
 
 Import the saved Excel file using the **Import Adjustment Sheet** function on the **Produce Bills** page. The posting amounts and posting price fields in the related advance produce bills will now reflect the imported values.
 

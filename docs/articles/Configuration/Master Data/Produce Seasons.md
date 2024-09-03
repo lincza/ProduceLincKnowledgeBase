@@ -37,4 +37,4 @@ Produce Seasons are marked as *Current* or *Non-Current*. This has the following
 
 Thus, a produce season code should only be marked as non-current in **Produce Seasons** once all transactions for the pallet have been completed; including the final payment to the producer.
 
-For information on how to set up produce seasons, please see [# How to set up Produce Seasons](https://linc.freshdesk.com/en/support/solutions/articles/8000097801)
+For information on how to set up produce seasons, please see [# How to set up Produce Seasons](https://linc.freshdesk.com/en/support/solutions/articles/8000097801)

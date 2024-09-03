@@ -23,7 +23,7 @@ Note that when the system applies the salesperson code to pallet lines, it will 
 
 **Trade Type Code:**When the Produce Trade is created, the system attempts to find a default Trade Type Code in Produce Trade Defaults, and automatically populates the *Trade Type* field on the Produce Trade header with this value. If no default value is found, the *Trade Type* on the Produce Trade header will be empty but can then be manually selected by a user.
 
-**Proforma Invoice Title, Trade Invoice Title and Trade Credit Memo Title:** When the Produce Trade is created, the system attempts to find the default values for these fields in Produce Trade Defaults, and automatically populates the values to the corresponding fields on the Produce Trade. If no matching rule is found in Produce Trade Defaults, the system will use the global default values for these fields from *Linc Setup* and use those values for the fields on the Produce Trade header. Should no global default values exist in *Linc Setup* either, the fields are left empty on the Produce Trade header and can then be manually filled in on the Produce Trade header itself. The print titles on the Produce Trade header will determine the titles of the printed documents for Proforma Invoice, Produce Trade Invoice and Produce Trade Credit Memo reports that are printed from the Produce Trade.
+**Proforma Invoice Title, Trade Invoice Title and Trade Credit Memo Title:** When the Produce Trade is created, the system attempts to find the default values for these fields in Produce Trade Defaults, and automatically populates the values to the corresponding fields on the Produce Trade. If no matching rule is found in Produce Trade Defaults, the system will use the global default values for these fields from *Linc Setup* and use those values for the fields on the Produce Trade header. Should no global default values exist in *Linc Setup* either, the fields are left empty on the Produce Trade header and can then be manually filled in on the Produce Trade header itself. The print titles on the Produce Trade header will determine the titles of the printed documents for Proforma Invoice, Produce Trade Invoice and Produce Trade Credit Memo reports that are printed from the Produce Trade.
 
 EXAMPLES
 
@@ -35,8 +35,8 @@ Consider the example produce trade defaults below.
 | C0001 | SF | SARAH | ACC SALE | Proforma Invoice | Sales Invoice | Sales Credit memo |
 | C0002 |  | MARY | FIXED | Commercial Invoice | Invoice | Credit Memo |
 
-If pallets are allocated to customer C0001 and the commodity group code of the pallets is anything other than SF, then the salesperson code will be *JOHN*, and the resulting Produce Trade header will show *FIXED*for the Trade Type. The print titles will be *Proforma Invoice*, *Tax Invoice* and *Tax Credit Memo*.
+If pallets are allocated to customer C0001 and the commodity group code of the pallets is anything other than SF, then the salesperson code will be *JOHN*, and the resulting Produce Trade header will show *FIXED*for the Trade Type. The print titles will be *Proforma Invoice*, *Tax Invoice* and *Tax Credit Memo*.
 
-If pallets with commodity group code SF are allocated to the same customer C0001, salesperson code *SARAH*will be assigned to the pallets, the Trade Type in the resulting Produce Trade header will be *ACC SALE*, and the print titles will be *Proforma Invoice*, *Sales Invoice* and *Sales Credit Memo*.
+If pallets with commodity group code SF are allocated to the same customer C0001, salesperson code *SARAH*will be assigned to the pallets, the Trade Type in the resulting Produce Trade header will be *ACC SALE*, and the print titles will be *Proforma Invoice*, *Sales Invoice* and *Sales Credit Memo*.
 
 If pallets are allocated to customer C0002 - irrespective of the commodity group code - MARY will be the assigned salesperson code and the print titles will be *Commercial Invoice*, *Invoice*and *Credit Memo*.

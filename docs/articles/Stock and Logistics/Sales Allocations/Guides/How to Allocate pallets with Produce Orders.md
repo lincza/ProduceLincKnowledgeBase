@@ -14,7 +14,7 @@ How to Allocate pallets with Produce Orders
 * Enter values in the header - these will be used when the pallets are allocated to the lines to update the relevant fields on the allocated pallet lines
 * Enter one or more order lines. Fill in commodity group code, commodity code, outer pack code, pallet base and pallet height. Optionally fill in values in the additional 'filter' fields of the order line(s).
 * Use the *Pallet Multiplier* field to enter the number of pallets for the order line. The system will multiply this with the "Qty per Pallet" as per the pallet packing setup found for the combination of commodity group/commodity/outer pack/pallet base/pallet height) to calculate the Quantity field of the order line. The Pallet multiplier is cleared after the calculation has been done.
-* Add prices (intended sales and purchase prices and MGPs where applicable)
+* Add prices (intended sales and purchase prices and MGPs where applicable)
 
 
 
@@ -25,7 +25,7 @@ How to Allocate pallets with Produce Orders
 * Click on 'select' in this page to allocate the appropriate pallets. To de-allocate, 'un-tick' the select field. When pallets are selected/allocated, the allocation fields are updated from the order header and lines (prices and intended purchase currency from lines, the rest from the order header).
 * *Allocated Pallets* and A*llocated Quantity* on produce order line will update
 
-  
+
 
 
 ### Freight Allocation
@@ -45,8 +45,8 @@ How to Allocate pallets with Produce Orders
 * The freight allocation fields on the order header are non-editable when the order is in open or submitted status, and only become editable in released status
 * The produce order includes a customer statistics factbox that provides an overview of the customer balance, credit limit, value of outstanding pallets (un-invoiced sales) and values of orders that are still in open or submitted status for the customer
 
-  
-When pallets are allocated to a line with zero intended purchase price and zero purchase MGP price,  the intended purchase and purchase MGP will not be updated on the allocated pallets. Note that these two fields are handled separately - thus if the intended purchase eg. has no value on the order line, but purchase MGP does, allocation of pallets will not override the existing intended purchase price of the pallet(s), but it will update the purchase MGP as per the order line. When pallets are de-allocated, and the 'linked' order line has zero intended purchase price and/or purchase MGP, then these fields on the de-allocated pallets also does not update to zero - these prices remain as they were.
+
+When pallets are allocated to a line with zero intended purchase price and zero purchase MGP price,  the intended purchase and purchase MGP will not be updated on the allocated pallets. Note that these two fields are handled separately - thus if the intended purchase eg. has no value on the order line, but purchase MGP does, allocation of pallets will not override the existing intended purchase price of the pallet(s), but it will update the purchase MGP as per the order line. When pallets are de-allocated, and the 'linked' order line has zero intended purchase price and/or purchase MGP, then these fields on the de-allocated pallets also does not update to zero - these prices remain as they were.
 
 
 Updating intended and MGP purchase prices for individual pallets linked to an order line

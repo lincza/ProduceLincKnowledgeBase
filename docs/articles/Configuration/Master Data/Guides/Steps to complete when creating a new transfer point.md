@@ -32,7 +32,7 @@ title: Steps to complete when creating a new transfer point
 * Choose a Freight Point (from Linc Lookup Values)
 * Select Location as the Mapping Type
 * The Mapping Parent No. is not used for Location Freight Points
-* Select a valid Location Code in Mapping Code (lookup to Location Table). Mapping Name will auto-populate.
+* Select a valid Location Code in Mapping Code (lookup to Location Table). Mapping Name will auto-populate.
 * Region Code and Country Code are optional fields for Location Freight Points. If values are defined, these values are used to update the Next Freight Point Region and Current Freight Point Region of pallet lines that are allocated to the Freight Point when the related Freighter Trip Leg is set as Departed and Arrived
 
 

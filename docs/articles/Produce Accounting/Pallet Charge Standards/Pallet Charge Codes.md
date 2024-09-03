@@ -16,7 +16,7 @@ Pallet Charge Codes must be defined in **Pallet Charges** before standard rates 
 
 ### **Code, Description and Grouping**
 
-Specify a **Code** and **Description** for the pallet charge in the **Pallet Charges** page.  Pallet charges can be 'grouped' for reporting purposes in the **Grouping** field.
+Specify a **Code** and **Description** for the pallet charge in the **Pallet Charges** page.  Pallet charges can be 'grouped' for reporting purposes in the **Grouping** field.
 
 ###
 

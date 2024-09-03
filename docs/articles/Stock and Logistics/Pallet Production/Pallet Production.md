@@ -98,4 +98,4 @@ Output pallet lots' revenue and costs are apportioned based on the following log
 
 
 
-For information on how to process pallet production lines with lot specific tracking, see [# How to set up and process Pallet Production](https://linc.freshdesk.com/en/support/solutions/articles/8000099254)
+For information on how to process pallet production lines with lot specific tracking, see [# How to set up and process Pallet Production](https://linc.freshdesk.com/en/support/solutions/articles/8000099254)

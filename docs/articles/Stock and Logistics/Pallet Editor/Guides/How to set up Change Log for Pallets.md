@@ -11,7 +11,7 @@ title: How to set up Change Log for Pallets
 
 To switch on Business Central's change log to track changes made to pallets:
 
-* Search for **Change Log Setup**
+* Search for **Change Log Setup**
 * Select **Setup**, and then select **Tables**
 * Search for the table named **Pallet Line** in the list of available tables
 * Select **Some Fields** in the **Log Modification** field for the Pallet Line table, and then select the assist-edit button (three dots) in the field to navigate to a list of available fields on the pallet line table.

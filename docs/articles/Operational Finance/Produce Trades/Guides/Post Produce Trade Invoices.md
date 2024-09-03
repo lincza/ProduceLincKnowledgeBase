@@ -43,7 +43,7 @@ Use the buttons in the menu just above the pallet lines in the trade to assist y
 * To enter other values than the intended sales prices, select the relevant lines, then enter a value in “posting price”; then choose “apply posting price”. You can also manually enter posting prices on the individual lines
 * If MGP sales prices exist and you wish to invoice these, select the relevant lines and choose
 
-            “apply minimum sales guarantee prices”
+            “apply minimum sales guarantee prices”
 
 
 
