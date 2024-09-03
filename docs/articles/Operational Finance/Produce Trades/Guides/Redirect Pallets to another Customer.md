@@ -28,7 +28,7 @@ To Redirect pallets:
 * Choose the new customer by entering a value in 'redirected delivery point'
 * Enter values for the new intended sales and purchase currencies and prices in the relevant 'redirect' fields.
 * Select the relevant pallet lines and then choose the 'redirect' action in the menu
-* This will remove these pallet lines from the existing produce trade and either create a new produce trade for them, or add them to an existing produce trade for customer B – if such a produce trade for the same freight container already exists for customer B. (When you choose the redirect action, you can select to 'force' the pallets to go to a completely new produce trade for customer B – even if a produce trade for this customer already exists for the same freight container)
+* This will remove these pallet lines from the existing produce trade and either create a new produce trade for them, or add them to an existing produce trade for customer B - if such a produce trade for the same freight container already exists for customer B. (When you choose the redirect action, you can select to 'force' the pallets to go to a completely new produce trade for customer B - even if a produce trade for this customer already exists for the same freight container)
 * You can now proceed with invoicing the pallets to the new customer from the relevant produce trade.
 
 

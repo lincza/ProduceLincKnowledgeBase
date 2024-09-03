@@ -17,7 +17,7 @@ Post Produce Trade Credit Memos
 
 In the header (General) section:
 
-* The Trade Type and External Document number on the header should still be filled in – leave this as is.
+* The Trade Type and External Document number on the header should still be filled in - leave this as is.
 
 
 

@@ -17,7 +17,7 @@ Post Produce Trade Invoices
 
 In the header (General) section:
 
-* Choose a Trade Type in the header and fill in External Document No. (these two fields must have values – else you will get an error when you try to post the invoice/credit memo)
+* Choose a Trade Type in the header and fill in External Document No. (these two fields must have values - else you will get an error when you try to post the invoice/credit memo)
 
 
 

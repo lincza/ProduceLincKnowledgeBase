@@ -11,7 +11,7 @@ title: Linc Lookup Values
 
 Most of produce and logistic related master data are maintained in Linc Lookup Values. Various tables, pages and features in ProduceLinc point to this master data to look up and validate values.
 
-The Lookup Field Name defines the 'type' of master data field. This allows for a comprehensive list of master data, such as producer codes, packhouse code, shipping temperature codes, variety codes, etc. to be maintained in a single table – rather than having to set these up in separate master data tables.
+The Lookup Field Name defines the 'type' of master data field. This allows for a comprehensive list of master data, such as producer codes, packhouse code, shipping temperature codes, variety codes, etc. to be maintained in a single table - rather than having to set these up in separate master data tables.
 
 Multiple codes for the same Lookup Field Name are set up by simply inserting more lines with the same Lookup Field Name and defining a unique Code and Description (optional) for each line.
 

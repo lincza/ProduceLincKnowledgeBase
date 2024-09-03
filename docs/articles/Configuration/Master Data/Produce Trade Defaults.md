@@ -17,7 +17,7 @@ The fields for *Customer No.* and *Commodity Group Code* are the filter fields t
 
 When are the default values applied?
 
-**Salesperson Code:**this value is applied to the *Salesperson*Code field on pallet lines during sales allocation when the Allocated Delivery Point – and thus Customer – is assigned to pallet lines.
+**Salesperson Code:**this value is applied to the *Salesperson*Code field on pallet lines during sales allocation when the Allocated Delivery Point - and thus Customer - is assigned to pallet lines.
 
 Note that when the system applies the salesperson code to pallet lines, it will look for and apply the default value first from the related Customer Card, then from User Setup (the salesperson code mapped to the user who is performing the allocation), and last from Produce Trade Defaults. The last salesperson code value found, is the value that remains on the pallet line. Thus, if Produce Trade Default rules are defined, all such rules must have a value in *Salesperson Code.*
 
@@ -39,4 +39,4 @@ If pallets are allocated to customer C0001 and the commodity group code of the p
 
 If pallets with commodity group code SF are allocated to the same customer C0001, salesperson code *SARAH*will be assigned to the pallets, the Trade Type in the resulting Produce Trade header will be *ACC SALE*, and the print titles will be *Proforma Invoice*, *Sales Invoice* and *Sales Credit Memo*.
 
-If pallets are allocated to customer C0002 – irrespective of the commodity group code – MARY will be the assigned salesperson code and the print titles will be *Commercial Invoice*, *Invoice*and *Credit Memo*.
+If pallets are allocated to customer C0002 - irrespective of the commodity group code - MARY will be the assigned salesperson code and the print titles will be *Commercial Invoice*, *Invoice*and *Credit Memo*.

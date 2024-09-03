@@ -27,7 +27,7 @@ Option 1: Import from Excel file
 * When importing, the **Pallet Lot No.** must be present in the sheet that you import
 * The order of the fields in the Excel file are **not important**
 * For fields that are imported, the field name in Excel must be typed ***exactly*** as it looks like in the system (thus, case and spaces are important). These fields must also be in row 1 of the Excel file
-* **NB**: if your Excel sheet is filtered, ALL records in the sheet will still import – the system does not only import the 'visible' filtered values
+* **NB**: if your Excel sheet is filtered, ALL records in the sheet will still import - the system does not only import the 'visible' filtered values
 * It is not necessary to have values in ALL the fields below all at the same time when importing the file. Fields marked in bold are however required by the time the produce trade is created/updated.
 
 
@@ -64,7 +64,7 @@ Option 2: Allocate from Pallet Allocation Summary
 ### Important notes for sales allocation
 
 * The Pallet Allocation Page is system-filtered to only show pallets that are in your batch
-* If Batch Purpose = Sales Allocation, ALL values as per the list of allocation fields above may be assigned – thus, sales as well as freight. The trip legs and containers can also be populated from a batch with purpose 'Sales Allocation'
+* If Batch Purpose = Sales Allocation, ALL values as per the list of allocation fields above may be assigned - thus, sales as well as freight. The trip legs and containers can also be populated from a batch with purpose 'Sales Allocation'
 * If Batch Purpose = Freight Allocation only Freight Allocation Group and Allocated Transfer Point can be assigned/modified and trip legs populated. A Freight Allocation batch will not allow assignment/modification to allocated delivery point/allocated customer or any of the prices
 * You must assign a Sales Allocation Group before you can assign an Allocated Delivery Point
 * Salesperson Code: the default is inserted when Allocated Delivery Point is assigned (based on either customer setup, user setup or produce trade defaults). If no default salesperson is found, the system will show an error. You can override the salesperson code (assign a different value) if the scenario requires it

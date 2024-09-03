@@ -26,4 +26,4 @@ To Remove pallets:
 * Ensure that the pallet line(s) has been fully credited. Thus, the posted amount on the line must be zero. All income charges for the pallet must also be fully credited.
 * Posted Bill Amount must be zero
 * Select the line and then choose 'remove pallets' in the menu
-* Note that this removes the pallet from the produce trade as well as from its freighter trip leg and container – as if it was never loaded.
+* Note that this removes the pallet from the produce trade as well as from its freighter trip leg and container - as if it was never loaded.

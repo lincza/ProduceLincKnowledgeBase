@@ -45,7 +45,7 @@ Pallet production with Lot Specific Tracking is typically done with the ***Palle
 
 
 
-Usage and output are entered into *pallet production lines* – either manually or via Edit in Excel. Freight allocation group, allocated delivery point and intended sales prices for the output pallets can be captured on the pallet production lines themselves before processing the batch. On processing the pallet production lines, output pallets for which freight and sales allocation values were entered on the lines are automatically added to the user's allocation batch – from where they can be allocated to freight trip legs and containers. The output pallets are then sold on normal produce trades.
+Usage and output are entered into *pallet production lines* - either manually or via Edit in Excel. Freight allocation group, allocated delivery point and intended sales prices for the output pallets can be captured on the pallet production lines themselves before processing the batch. On processing the pallet production lines, output pallets for which freight and sales allocation values were entered on the lines are automatically added to the user's allocation batch - from where they can be allocated to freight trip legs and containers. The output pallets are then sold on normal produce trades.
 
 
 
@@ -55,7 +55,7 @@ A pallet ID can be used in multiple production batches. It is thus possible to u
 
 
 
-Input pallets are marked as *used* on all of the pallet IDs member pallet lots. This renders all the pallet lots of the input pallet ID as non-eligible for sales allocations. If an un-used pallet lot no. that is part of a used pallet needs to be sales allocated in its current state, it must be processed through pallet production to a new pallet ID – even if the outer pack and quantities essentially remain the same.
+Input pallets are marked as *used* on all of the pallet IDs member pallet lots. This renders all the pallet lots of the input pallet ID as non-eligible for sales allocations. If an un-used pallet lot no. that is part of a used pallet needs to be sales allocated in its current state, it must be processed through pallet production to a new pallet ID - even if the outer pack and quantities essentially remain the same.
 
 
 
@@ -80,7 +80,7 @@ When pallet production lines are processed, *production document*cost produce bi
 
 
 
-Produce Trade Entries of the output lots are reallocated to the relevant input lots – essentially by generating 'system' produce trade entries for the input lots. In the same way income charges and actual costs posted for output lots are also reallocated by generating 'system' pallet charge entries for the related input lots.
+Produce Trade Entries of the output lots are reallocated to the relevant input lots - essentially by generating 'system' produce trade entries for the input lots. In the same way income charges and actual costs posted for output lots are also reallocated by generating 'system' pallet charge entries for the related input lots.
 
 
 
