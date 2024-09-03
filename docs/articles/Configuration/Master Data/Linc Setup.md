@@ -94,4 +94,3 @@ Select the default Solas Method (Method 1 or Method 2) that should be used when 
 
 ## Suppress Allocation Batching
  If switched on, access to *pallet selection summary* is prevented. Allocations can then be imported from Excel using the *import allocation batch* function on pallet allocation summary, but without requiring users to first add the pallet lines to an allocation batch. The import temporarily adds all pallet lines with allocation values in the Excel file to the import user's batch, and thus make them visible on pallet allocation summary after the import.
-

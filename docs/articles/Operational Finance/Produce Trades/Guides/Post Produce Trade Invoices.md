@@ -76,4 +76,4 @@ Post the invoice
 Print and email the invoice
 
 * In the "Produce Trade Documents" section of the factbox: choose the posted invoice that you want to print and/or email
-* Then click on the down-arrow next to "Produce Trade Documents" to see a list of available actions, and choose the relevant action (print, email…)
+* Then click on the down-arrow next to "Produce Trade Documents" to see a list of available actions, and choose the relevant action (print, email)
