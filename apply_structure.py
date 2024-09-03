@@ -1,4 +1,5 @@
 import os, frontmatter, json
+from encodings import utf_8
 
 root = 'docs/articles'
 structure_file = open('structure.json')
@@ -16,7 +17,7 @@ for section in sections:
     if not os.path.exists(os.path.join(section_path, 'index.md')):
         section_file = open(os.path.join(section_path, 'index.md'), 'w')
         section_file.close()
-    section_file = open(os.path.join(section_path, 'index.md'), 'r')
+    section_file = open(os.path.join(section_path, 'index.md'), 'r', encoding=utf_8)
     section_frontmatter = frontmatter.load(section_file)
     section_file.close()
     section_metadata = section_frontmatter.metadata
@@ -38,7 +39,7 @@ for section in sections:
         if not os.path.exists(os.path.join(area_path, 'index.md')):
             area_file = open(os.path.join(area_path, 'index.md'), 'w')
             area_file.close()
-        area_file = open(os.path.join(area_path, 'index.md'), 'r')
+        area_file = open(os.path.join(area_path, 'index.md'), 'r', encoding=utf_8)
         area_frontmatter = frontmatter.load(area_file)
         area_file.close()
         area_metadata = area_frontmatter.metadata
@@ -60,7 +61,7 @@ for section in sections:
                 if not os.path.exists(article_path):
                     article_file = open(article_path,'w')
                     article_file.close()
-                article_file = open(article_path, 'r')
+                article_file = open(article_path, 'r', encoding=utf_8)
                 article_frontmatter = frontmatter.load(article_file)
                 article_file.close()
                 article_metadata = article_frontmatter.metadata
@@ -79,7 +80,7 @@ for section in sections:
         if not os.path.exists(os.path.join(area_path, 'Guides', 'index.md')):
             guides_file = open(os.path.join(area_path, 'Guides', 'index.md'), 'w')
             guides_file.close()
-        guides_file = open(os.path.join(area_path, 'Guides', 'index.md'), 'r')
+        guides_file = open(os.path.join(area_path, 'Guides', 'index.md'), 'r', encoding=utf_8)
         guides_frontmatter = frontmatter.load(guides_file)
         guides_file.close()
         guides_metadata = guides_frontmatter.metadata
@@ -104,7 +105,7 @@ for section in sections:
                 if not os.path.exists(guide_path):
                     guide_file = open(guide_path,'w')
                     guide_file.close()
-                guide_file = open(guide_path, 'r')
+                guide_file = open(guide_path, 'r', encoding=utf_8)
                 guide_frontmatter = frontmatter.load(guide_file)
                 guide_file.close()
                 guide_metadata = guide_frontmatter.metadata
