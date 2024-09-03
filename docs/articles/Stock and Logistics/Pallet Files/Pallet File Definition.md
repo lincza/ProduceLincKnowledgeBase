@@ -19,7 +19,7 @@ The values and/or options in the fields **Fi****le Type, Section Type, Field Del
 
 
 
-It is possible to set up a 'generic’ file definition to handle the majority of pallet file processing for a certain file type, eg. PO files, and then create a more specific pallet file definition to deal with cases where the same kind of file from certain sources have a different field mapping. To accomplish this, the system sorts the pallet file definitions in ascending order according to the values in the **Code** field and uses the first 'matching’ file definition for processing the incoming pallet file.
+It is possible to set up a 'generic' file definition to handle the majority of pallet file processing for a certain file type, eg. PO files, and then create a more specific pallet file definition to deal with cases where the same kind of file from certain sources have a different field mapping. To accomplish this, the system sorts the pallet file definitions in ascending order according to the values in the **Code** field and uses the first 'matching' file definition for processing the incoming pallet file.
 
 
 

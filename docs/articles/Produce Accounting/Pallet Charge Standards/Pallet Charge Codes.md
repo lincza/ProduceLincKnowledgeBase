@@ -16,7 +16,7 @@ Pallet Charge Codes must be defined in **Pallet Charges** before standard rates 
 
 ### **Code, Description and Grouping**
 
-Specify a **Code** and **Description** for the pallet charge in the **Pallet Charges** page.  Pallet charges can be 'grouped’ for reporting purposes in the **Grouping** field.
+Specify a **Code** and **Description** for the pallet charge in the **Pallet Charges** page.  Pallet charges can be 'grouped' for reporting purposes in the **Grouping** field.
 
 ###
 
@@ -34,12 +34,12 @@ The **Shipment Method Level** (incoterm) has some important functions, and the v
 
 
 
-This field is first used to determine if the standard rates for the pallet charge should calculate, or not. If the Shipment Method Level of the pallet charge is ranked 'higher’ than the Shipment Method of a pallet lot’s related produce trade, the standard rates for the pallet charge will not calculate on such a pallet lot.
+This field is first used to determine if the standard rates for the pallet charge should calculate, or not. If the Shipment Method Level of the pallet charge is ranked 'higher' than the Shipment Method of a pallet lot's related produce trade, the standard rates for the pallet charge will not calculate on such a pallet lot.
 
 
 
 
-Shipment Method Codes are 'ranked’ from low to high based on sorting. To ensure proper sorting and ranking, prefix Shipment Method Codes with numbers, eg. 01-EXW has a lower ranking than 05-CIF. A Pallet Charge standard rate with Shipment Method Level 05-CIF will, for instance, not calculate for a pallet that was traded as 04-FOB. The standard rates of pallet charges with a lower or equal shipment method as the pallet lot’s produce trade, will calculate.
+Shipment Method Codes are 'ranked' from low to high based on sorting. To ensure proper sorting and ranking, prefix Shipment Method Codes with numbers, eg. 01-EXW has a lower ranking than 05-CIF. A Pallet Charge standard rate with Shipment Method Level 05-CIF will, for instance, not calculate for a pallet that was traded as 04-FOB. The standard rates of pallet charges with a lower or equal shipment method as the pallet lot's produce trade, will calculate.
 
 If the pallet charge must calculate as a percentage of income (where **Charge Calculation Method** is *Income Percentage*), the rate is calculated as a percentage of the Shipment Method Level income of the pallet lot.
 
@@ -71,7 +71,7 @@ This field determines how actual pallet charge assignments, that could be assign
 
 #### **Default Allocation Method Options**
 
-* *Quantity*: The pallet charge assignment amount is divided by the total Quantity (number of Outer Packs) for all the pallet lots in the assignment target to determine a 'cost per Outer Pack’; and then multiplied by the Quantity of the pallet lot.
+* *Quantity*: The pallet charge assignment amount is divided by the total Quantity (number of Outer Packs) for all the pallet lots in the assignment target to determine a 'cost per Outer Pack'; and then multiplied by the Quantity of the pallet lot.
 * *Weight*: The pallet charge assignment amount is spread across the pallet lots of the assignment target based on the net weight of the pallet lots.
 * *Pallet*: The pallet charge assignment amount is spread across the pallet lots based on the number of Pallet IDs in the assignment target. The same cost amount is thus allocated to each pallet ID in the assignment target.
 * *Amount*: the income of each pallet lot in the assignment target is calculated as a percentage of the total income of the assignment target. The percentage is then applied to the total pallet charge assignment amount and the result allocated to the individual pallet lot. Pallet lots with a higher income will thus carry a higher portion of the pallet charge.
@@ -122,7 +122,7 @@ The Charge Calculation Method determines how standard rates for the pallet charg
 
 ### **Accrual Account and Deferred Cost Account**
 
-Pallet Charge Assignments as posted on purchase documents are posted to the **Deferred Cost Account** for the pallet charge. These costs are reversed from the **Deferred Cost Account** during the posting of the cost produce bill. The difference between the actual and prioritised cost will remain in the **Accrual Account** after the produce bill posting. This amount represents the over/under recovery of the cost (in cases where an actual cost was posted) or the 'suspense’ amount that still awaits an actual cost invoice.
+Pallet Charge Assignments as posted on purchase documents are posted to the **Deferred Cost Account** for the pallet charge. These costs are reversed from the **Deferred Cost Account** during the posting of the cost produce bill. The difference between the actual and prioritised cost will remain in the **Accrual Account** after the produce bill posting. This amount represents the over/under recovery of the cost (in cases where an actual cost was posted) or the 'suspense' amount that still awaits an actual cost invoice.
 
 
 

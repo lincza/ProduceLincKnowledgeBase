@@ -9,7 +9,7 @@ title: Pallet File Processing
 
 Pallet File Processing
 
-ProduceLinc’s pallet file processing functionality allows for pallet files from producers, pack houses, cold stores, etc. to be imported for the purposes of creating palletised produce in the system (**P****allet Creation**), verifying and updating characteristics of existing pallets (**P****allet Verification**) and confirming and updating loaded pallets and related freight details (**C****ontainer Confirmation**).
+ProduceLinc's pallet file processing functionality allows for pallet files from producers, pack houses, cold stores, etc. to be imported for the purposes of creating palletised produce in the system (**P****allet Creation**), verifying and updating characteristics of existing pallets (**P****allet Verification**) and confirming and updating loaded pallets and related freight details (**C****ontainer Confirmation**).
 
 
 

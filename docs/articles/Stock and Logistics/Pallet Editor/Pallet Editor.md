@@ -19,4 +19,4 @@ Built in business logic ensures that editable fields can only be edited under ce
 
 
 
-The system supports the tracking of changes to pallet lot fields with the use of Business Central’s **Change Log** feature, and provides visibility on Pallet Selection, Pallet Allocation and Pallet Lines pages of the changes that were made.
+The system supports the tracking of changes to pallet lot fields with the use of Business Central's **Change Log** feature, and provides visibility on Pallet Selection, Pallet Allocation and Pallet Lines pages of the changes that were made.

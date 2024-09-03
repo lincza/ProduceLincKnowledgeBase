@@ -81,10 +81,10 @@ ProduceLinc allows for the automatic import of pallet files. Such pallet files s
 ## Pallet Line Archive Date Filter Calc
 Use a date formula in *Pal. Archive Date Filter Calc.* to determine the date filter that will be used for the calculation of the LCY income and cost fields on pallet line archive. The *Pal. Archive Date Filter* field shows the effective date filter that will be used, based on the date formula.
 
-This date filter allows for 'as at date’ reporting of LCY income and costs from the pallet line archive.
+This date filter allows for 'as at date' reporting of LCY income and costs from the pallet line archive.
 
 ## Allow Manual Confirmation Dates
-If this is switched on, the confirmation date on pallet file entry lines will not automatically derive from the current work date, and must be specified before confirmation of the lines. Functions then exist on the pallet file entry to either derive the confirmation date from the intake date of the lines, or assign a 'manual confirmation’ date in bulk to selected pallet file lines.
+If this is switched on, the confirmation date on pallet file entry lines will not automatically derive from the current work date, and must be specified before confirmation of the lines. Functions then exist on the pallet file entry to either derive the confirmation date from the intake date of the lines, or assign a 'manual confirmation' date in bulk to selected pallet file lines.
 
 ## Suppress VGM on SOLAS 2
 If switched on, Solas Method 2 can be selected for freight containers even if some of the pallets in the container do not have a verified gross weight.
@@ -93,4 +93,4 @@ If switched on, Solas Method 2 can be selected for freight containers even if so
 Select the default Solas Method (Method 1 or Method 2) that should be used when new freight containers are created. The Solas method on individual freight containers can be modified after creation.
 
 ## Suppress Allocation Batching
- If switched on, access to *pallet selection summary* is prevented. Allocations can then be imported from Excel using the *import allocation batch* function on pallet allocation summary, but without requiring users to first add the pallet lines to an allocation batch. The import temporarily adds all pallet lines with allocation values in the Excel file to the import user’s batch, and thus make them visible on pallet allocation summary after the import.
+ If switched on, access to *pallet selection summary* is prevented. Allocations can then be imported from Excel using the *import allocation batch* function on pallet allocation summary, but without requiring users to first add the pallet lines to an allocation batch. The import temporarily adds all pallet lines with allocation values in the Excel file to the import user's batch, and thus make them visible on pallet allocation summary after the import.

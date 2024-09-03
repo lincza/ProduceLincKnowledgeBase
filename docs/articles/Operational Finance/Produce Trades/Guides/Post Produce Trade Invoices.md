@@ -61,14 +61,14 @@ Prepare pallet charge assignments (costs that are charged to you by the customer
 
 Review the totals before you post
 
-* Use the produce trade factbox to review the totals that will be posted for pallets and charge assignments in the 'posting amounts’ section. (Click on the circle in the top right corner of the page to show/hide the factbox).
+* Use the produce trade factbox to review the totals that will be posted for pallets and charge assignments in the 'posting amounts' section. (Click on the circle in the top right corner of the page to show/hide the factbox).
 
 
 
 Post the invoice
 
-* Click on 'release’ in the page menu
-* Then click on 'post’
+* Click on 'release' in the page menu
+* Then click on 'post'
 
 
 

@@ -73,7 +73,7 @@ Note that the Preferred Trade Exchange Rate options can only be switched on/off 
 Standard, Actual and Prioritised Charges
 ----------------------------------------
 
-The **Calculate Charges** function in the header menu calculates the relevant standard rates for pallet charges, allocates actual pallet charge assignments to the relevant pallet lots, and prioritises either the standard rate or actual rate (as per each pallet charge’s priority setting).
+The **Calculate Charges** function in the header menu calculates the relevant standard rates for pallet charges, allocates actual pallet charge assignments to the relevant pallet lots, and prioritises either the standard rate or actual rate (as per each pallet charge's priority setting).
 
 
 

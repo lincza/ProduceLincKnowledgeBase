@@ -11,7 +11,7 @@ Pallet Charge Standard Rates
 
 Standard cost rates are set up in **Pallet Charge Standard Rates**. Start by selecting a **Pallet Charge Code**. Once selected, the **Treatment** and **Charge Calculation Method**fields are automatically populated as per the setup in **Pallet Charges**. A Unique **ID** will also be assigned to the standard rate rule. This **ID** is shown on the calculated standard pallet charge entries from a cost produce bill, and makes it easy to find the appropriate rate in Pallet Charge Standard Rates if any adjustments need to be made to the standard rate rule.
 
-The **Sorting Key** is an optional text field that can be used to simplify the 'grouping’, sorting and managing of standard rates.
+The **Sorting Key** is an optional text field that can be used to simplify the 'grouping', sorting and managing of standard rates.
 
 
 
@@ -26,7 +26,7 @@ When standard charges are calculated for a produce bill line and a base rate and
 
 Define the currency and standard rate in the **Charge Currency Code** and **Charge Rate**fields. Pallet Charges that are defined in a foreign currency will calculate in the specified currency and also convert to LCY using the appropriate currency factor as per the cost produce bill from where the standard rate calculation function is performed. For more information, see **Cost Produce Bills**.
 
-The remaining fields in **Pallet Charge Standard Rates** are filter fields that can be used to define and limit the pallet lots for which the standard rates should calculate. It is not necessary to enter a value in every one of these fields, thus allowing for more 'generic’ rules to be set up. Filter values should thus be selected to **limit** the pallet lots for which a standard rate should calculate.
+The remaining fields in **Pallet Charge Standard Rates** are filter fields that can be used to define and limit the pallet lots for which the standard rates should calculate. It is not necessary to enter a value in every one of these fields, thus allowing for more 'generic' rules to be set up. Filter values should thus be selected to **limit** the pallet lots for which a standard rate should calculate.
 
 ```
 **Example**

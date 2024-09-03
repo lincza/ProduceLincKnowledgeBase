@@ -16,7 +16,7 @@ When pallets are confirmed on the pallet file entries, they are inserted into pa
 
 The system features an easy-to-use sales allocation functionality that is based on a two-step process.
 
-* Pallets are added to a **sales allocation batch** from **Pallet Selection Summary**. The batch is identified by the **User ID** value in the **Allocation Batch** field of the related pallet lines. Pallets that are in a user’s batch are still visible to other users on Pallet Selection Summary, but another user cannot remove such pallets from an existing batch and add to his/her own batch.
+* Pallets are added to a **sales allocation batch** from **Pallet Selection Summary**. The batch is identified by the **User ID** value in the **Allocation Batch** field of the related pallet lines. Pallets that are in a user's batch are still visible to other users on Pallet Selection Summary, but another user cannot remove such pallets from an existing batch and add to his/her own batch.
 * Pallets in a **sales allocation batch** are then visible in **Pallet Allocation** from where delivery points, customers and intended prices can be assigned.
 
 
@@ -48,7 +48,7 @@ Further filters can be applied to the pallet lines by using built-in Filter Sets
 Pallet Allocation
 -----------------
 
-The **Pallet Allocation** page is pre-filtered to only show pallets that are in the logged-in User ID’s allocation batch. This ensures that users do not allocate pallets in one another’s batches.
+The **Pallet Allocation** page is pre-filtered to only show pallets that are in the logged-in User ID's allocation batch. This ensures that users do not allocate pallets in one another's batches.
 
 
 

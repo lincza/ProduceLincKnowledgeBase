@@ -12,7 +12,7 @@ title: Steps to complete when creating a new Customer
 1. Navigate to the customer page on Business Central
 2. On the page, select the “New” button.
 3. ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/8131426436/original/heyKmB309mXolBhQIAXOrZBwdhcZF7pK5A.png?1718787251)If your Customer Number is generated from a number series (e.g. CUST001, CUST002), only populate the Name field. If not, populate both the No. and Name Fields:
-4. ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/8131426434/original/-yq3wAMfGsfRqix53lajtB9FNUGjgMluTQ.png?1718787251)Select a General Business Posting Group, Customer Posting Group & VAT Business Posting Group under the Invoicing fast tab as well as the customer’s currency code and VAT registration number:
+4. ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/8131426434/original/-yq3wAMfGsfRqix53lajtB9FNUGjgMluTQ.png?1718787251)Select a General Business Posting Group, Customer Posting Group & VAT Business Posting Group under the Invoicing fast tab as well as the customer's currency code and VAT registration number:
 5. ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/8131426435/original/X5tnv7VpPoocMpKKxu47Zz_17wqFbf35lw.png?1718787251)Select a Shipment Methode Code under the Shipping Fast tab:
 6. Populate the address fields under the Address & Contact fast tab
 

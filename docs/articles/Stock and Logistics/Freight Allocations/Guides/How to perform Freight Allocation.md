@@ -24,7 +24,7 @@ To Assign a Freight Allocation Group:
 * Search for **Pallet Selection Summary**, select the relevant pallets, choose *Freight Allocation* as the **Allocation Batch Purpose** and select **Add to Allocation Batch**. For more information on the use of summary buttons, summary lines and filter options in this page, see **Pallet Selection**.
 * Close the Pallet Selection Summary page
 * Search for **Pallet Allocations**.
-* Assign **Freight Allocation Group** values to selected pallets with the use of the **Freight Allocation**field in *New Allocations*. Ensure that pallets are grouped in freight container 'units’. If the Sales Allocation Group already groups pallets together in container units, you can copy this value to the **Freight Allocation Group** by selecting the relevant pallets and using the **Copy Sales to Freight**function in the Pallet Allocation subform menu.
+* Assign **Freight Allocation Group** values to selected pallets with the use of the **Freight Allocation**field in *New Allocations*. Ensure that pallets are grouped in freight container 'units'. If the Sales Allocation Group already groups pallets together in container units, you can copy this value to the **Freight Allocation Group** by selecting the relevant pallets and using the **Copy Sales to Freight**function in the Pallet Allocation subform menu.
 
 
 

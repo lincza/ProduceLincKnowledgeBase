@@ -12,11 +12,11 @@ title: Produce Trades
 
 A produce trade represents the sale of pallets in a container to a customer. When produce trades are created, built-in logic groups pallets into trades per *Freight Container Code*, *Allocated Delivery Point*, *Intended Sales Currency Code*, *Shipment Method Code* and *Salesperson Code*.
 
-From this single document users can print the commercial invoice, post advance and final sales invoices and credit memo’s, post produce trade pallet charges that the customer will deduct from payments and redirect pallets to another customer and produce trade.
+From this single document users can print the commercial invoice, post advance and final sales invoices and credit memo's, post produce trade pallet charges that the customer will deduct from payments and redirect pallets to another customer and produce trade.
 
 The produce trade header (*General* section in the top of the produce trade) shows information about the customer, the sales currency and shipment method (incoterm), and detail about the freighter trip leg and freight container on which the pallets were shipped. All the fields in the header are also visible on the produce trade list page - thus making it possible to use these values as filters for finding produce trades.
 
-The *Posting* section of the trade contains a number of fields that are filled in when invoices or credit memo’s are posted. These fields are cleared after each posting - allow for a subsequent posting.
+The *Posting* section of the trade contains a number of fields that are filled in when invoices or credit memo's are posted. These fields are cleared after each posting - allow for a subsequent posting.
 
 Produce trade pallet charges are defined in the *Pallet Charge Assignment* section of the trade.
 
