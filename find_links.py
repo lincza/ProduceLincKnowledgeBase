@@ -1,6 +1,6 @@
 import os, frontmatter, re, json
 
-root = 'docs/articles'
+root = 'articles'
 structure_file = open('structure.json')
 structure = json.load(structure_file)
 
@@ -21,7 +21,7 @@ for section in sections:
                 article_metadata = article_frontmatter.metadata
                 item = {}
                 item['title'] = article_metadata.get('title')
-                item['path'] = article_path.replace(' ', '%20').replace('docs/', '').replace('.md','')
+                item['path'] = article_path.replace(' ', '%20').replace('.md','')
                 items.append(item)
         area_guides = []
         if 'Guides' in structure.get('articles').get(section).get(area):
@@ -34,7 +34,7 @@ for section in sections:
                 guide_metadata = guide_frontmatter.metadata
                 item = {}
                 item['title'] = guide_metadata.get('title')
-                item['path'] = guide_path.replace(' ', '%20').replace('docs/', '').replace('.md','')
+                item['path'] = guide_path.replace(' ', '%20').replace('.md','')
                 items.append(item)
 
 sections = structure.get('articles')
