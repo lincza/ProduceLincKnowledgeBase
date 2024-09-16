@@ -25,4 +25,6 @@ You can thus define a rule that Producer Site Code is mandatory for Commodity Gr
 Your business regards the Brand Code as mandatory for ALL commodity groups, regardless of whether the product is exported or sold locally.
 For this you would define a rule for Brand Code and leave the additional criteria fields empty.
 
-[Click here for an example](/media/Configuration_MasterData_PalletLineMandatoryFields.jpeg)
+Here is an example
+
+![Example of Pallet Line Mandatory Fields](/media/Configuration_MasterData_PalletLineMandatoryFields.jpeg)
