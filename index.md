@@ -100,11 +100,11 @@ ProduceLinc offers powerful pallet file processing and pallet tracking from pack
 - Provide various teams in the business with detailed reporting – from stock and logistics through to finance, income and costs per pallet.
 
 
-**Typical process flow: pallet files, stock, commercial and logistics
+**Typical process flow: pallet files, stock, commercial and logistics**
 
 ![Process Flow pallet files, stock and logistics](/media/Introduction_Visual_of_flow_Stock%20and%20Logistics.jpeg)
 
 
-**Typical process flow: pallet costs and producer payments
+**Typical process flow: pallet costs and producer payments**
 
 ![Process Flow pallet costs and producer payments](/media/Introduction_Visual_of_flow_Pallet%20Costs.jpeg)
