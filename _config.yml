@@ -6,17 +6,14 @@ favicon_ico: "assets/images/producelinc.ico"
 callouts_level: loud
 
 callouts:
-  warning:
-    title: Warning
-    color: red
-  info:
-    title: Information
+  overview:
+    title: Overview
     color: blue
-  tip:
-    title: Tip
+  documentation:
+    title: Documentation
     color: green
-  important:
-    title: Important
+  guides:
+    title: Guides
     color: yellow
 
 titles_from_headings:

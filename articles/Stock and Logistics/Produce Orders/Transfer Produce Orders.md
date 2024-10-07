@@ -14,7 +14,7 @@ This _General_ tab also shows the total allocated pallets and quantities.
 
 Freight details for the transport can be captured in the _Freight_ fast tab and the relevant transfer freighter trip leg and freight container on which the pallets must load can be created directly from the transfer produce order. 
 
-The term “freight container” refers to a ‘unit’ in the system to which the pallets are linked, and does not necessarily imply a 40 ft high cube container that will be loaded onto a vessel. For transfer purposes, the freighter trip leg and freight container essentially represent the “truck”.
+The term _freight container_ refers to a _unit_ in the system to which the pallets are linked, and does not necessarily imply a 40 ft high cube container that will be loaded onto a vessel. For transfer purposes, the freighter trip leg and freight container essentially represent the _truck_.
 
 Order lines can be captured to represent the specifications of the pallets to be transferred. Pallets are then allocated to these order lines by using either a manual select method, auto-allocating (oldest pallets first) or importing the allocation from an Excel file. 
 
