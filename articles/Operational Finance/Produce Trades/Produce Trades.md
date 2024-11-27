@@ -1,5 +1,4 @@
 ---
-draft: false
 grand_parent: Operational Finance
 has_children: false
 layout: default
