@@ -11,7 +11,8 @@
           "Pallet Line Mandatory Fields.md",
           "Point Mappings.md",
           "Produce Trade Defaults.md",
-          "Produce Posting Setup.md"
+          "Produce Posting Setup.md",
+          "Variety licensors.md"
         ],
         "Guides": {
           "files": [
@@ -167,8 +168,8 @@
         "files": [
           "Pallet Charges.md",
           "Pallet Charge Codes.md",
-          "Pallet Charge Standard Rates.md",
-          "Variety licensors.md"
+          "Pallet Charge Standard Rates.md"
+          
         ]
       },
       "Produce Bills": {
