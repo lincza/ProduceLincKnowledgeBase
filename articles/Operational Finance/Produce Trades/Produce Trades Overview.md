@@ -4,10 +4,10 @@ has_children: false
 layout: default
 nav_order: 41001
 parent: Produce Trades
-title: Produce Trades
+title: Produce Trades Overview
 ---
 
-# Produce Trades
+# Produce Trades Overview
 
 A produce trade represents the sale of pallets in a container to a customer. When produce trades are created, built-in logic groups pallets into trades per *Freight Container Code*, *Allocated Delivery Point*, *Intended Sales Currency Code*, *Shipment Method Code* and *Salesperson Code*.
 

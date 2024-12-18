@@ -3,7 +3,7 @@ grand_parent: Produce Accounting
 has_children: false
 layout: default
 nav_order: 51003
-parent: Pallet Charge Standards
+parent: Pallet Charges
 title: Pallet Charge Standard Rates
 ---
 
