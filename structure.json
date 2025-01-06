@@ -203,6 +203,11 @@
             "How to send Payment Advices.md"
           ]
         }
+      },
+      "Produce Accounting and Financials": {
+        "files": [
+          "Produce Accounting Overview.md"
+        ]
       }
     },
     "Reporting": {
