@@ -16,12 +16,16 @@ title: How to create new data in Linc Lookup Values
 [Add new Linc Lookup Value master data where no parent is required](#add-new-linc-lookup-value-master-data-where-no-parent-is-required)  
 [Add new Linc Lookup Value master data where a parent is required](#add-new-linc-lookup-value-master-data-where-no-parent-is-required)  
 
+Related articles
+<br/>
+[Linc Lookup Values](/articles/configuration/Master%20Data/Linc%20Lookup%20Values)
+
 ---
 ## Quick Overview
 <br/>
 Linc Lookup Values is where most master data relating to produce and logistics live. This includes things like producer codes (PUCs), variety codes, packhouse codes, transport methods, pallet base and heights, inspection points, and so forth.
 
-For more in-depth information on Linc Lookup Values (including a list of all the types of master data that is stored in this table) please read our documentation article on [Linc Lookup Values](/articles/Configuration/Master%20Data/Linc%20Lookup%20Values.md)
+For more in-depth information on Linc Lookup Values (including a list of all the types of master data that is stored in this table) please read our documentation article on [Linc Lookup Values](/articles/Configuration/Master%20Data/Linc%20Lookup%20Values)  
 
 From time to time, you may need to add new master data records in this table – for instance when you start receiving pallets from a new packhouse and the packhouse code does not yet exist in your master date; or when a new variety code is being packed that you must add to Linc Lookup Values.
 
@@ -32,8 +36,7 @@ In this step-by-step guide we will:
 
 
 **What do we mean with "parents"?**  
-  
-
+<br/>
 Some master data has to exist in relationship to a parent. An example of this is Commodity Code for which the parent is Commodity Group Code. The commodity "apples" belong to the parent commodity group "pome fruit". This parent-child relationship ensures that an apple pallet cannot be created with a Commodity Group of say Grapes or Citrus. 
 
 ---  

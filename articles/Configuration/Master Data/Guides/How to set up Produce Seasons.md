@@ -14,6 +14,10 @@ title: How to set up Produce Seasons
 [Quick Overview](#quick-overview)  
 [Create new Produce Seasons](#create-new-produce-seasons)  
 
+Related articles
+<br/>
+[Produce Seasons](/articles/Configuration/Master%20Data/Produce%20Seasons)
+
 ---
 ## Quick Overview
 <br/>

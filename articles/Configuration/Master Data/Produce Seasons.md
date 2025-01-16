@@ -9,6 +9,19 @@ title: Produce Seasons
 
 # Produce Seasons
 
+### In this article
+
+[Overview of Produce Seasons](#overview-of-produce-seasons)  
+[Impact of Current field of Produce Seasons](#impact-of-current-field-of-produce-seasons)
+
+
+Related Guide
+<br/>
+[How to set up Produce Seasons](/articles/Configuration/Master%20Data/Guides/How%20to%20set%20up%20Produce%20Seasons)
+
+---
+## Overview of Produce Seasons
+<br/>
 Produce Seasons allow your business to report on produce trading by season, and not just by accounting periods and financial years.
 
 Pallet lines are associated with produce seasons based on their respective confirmation dates, commodity group code, inbound channel and outbound channel.
@@ -27,14 +40,15 @@ Produce seasons are defined for combinations of Commodity Group, Inbound Channel
 | 2022GR-L-E | GR | L | E | 2021-11-01 | 2022-05-31 |
 | 2022GR-I-L | GR | I | L | 2022-05-01 | 2022-10-31 |
 
-**Impact of *Current / Non-Current* field of produce seasons**
 
+---
+## Impact of **Current** field of Produce Seasons
+<br/>
 Produce Seasons are marked as *Current* or *Non-Current*. This has the following impact on the rebuild of the pallet line archive that is used for reporting purposes.
 
-* During the rebuild of the pallet line archive (typically via a scheduled job queue), the system first deletes all lines from the pallet line archive where *Current* is TRUE.
-* Pallets that are marked not *Current*, are left in the pallet line archive with their information as is.
+* During the rebuild of the pallet line archive (typically via a scheduled job queue), the system first deletes all lines from the pallet line archive where **Current** is TRUE.
+* Pallets that are marked **not** market as **Current**, are left in the pallet line archive with their information as is.
 * The system then finds all pallet lines that are associated with current produce season codes and rebuilds these lines to the pallet line archive with their latest information.
 
 Thus, a produce season code should only be marked as non-current in **Produce Seasons** once all transactions for the pallet have been completed; including the final payment to the producer.
 
-For information on how to set up produce seasons, please see [# How to set up Produce Seasons](https://linc.freshdesk.com/en/support/solutions/articles/8000097801)
