@@ -61,11 +61,11 @@
         "files": [
           "Pallet Verifications overview.md",
           "Pallet Verifications for stock reconciliation.md",
-          "Pallet Verifications to only update pallet fields.md"
+          "Pallet Verifications for update of pallet information.md"
         ],
         "Guides": {
           "files": [
-            "How to Interpret Pallet Verification Results.md"
+            "How to interpret Pallet Verification Results.md"
           ]
         }
       },

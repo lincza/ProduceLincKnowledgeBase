@@ -4,11 +4,25 @@ has_children: false
 layout: default
 nav_order: 33901
 parent: Guides
-title: How to Interpret Pallet Verification Results
+title: How to interpret Pallet Verification Results
 ---
 
-# How to Interpret Pallet Verification Results
 
+# How to interpret Pallet Verification Results
+
+### In this article
+
+[Pallet Verifications page and verification results](#pallet-verifications-page-and-verification-results)  
+[Verification results illustrated](#verification-results-illustrated)  
+
+Related articles
+<br/>
+[Pallet Verifications overview](/articles/Stock%20and%20Logistics/Pallet%20Verification/Pallet%20Verifications%20overview)  
+[Pallet Verifications for stock reconciliation](/articles/Stock%20and%20Logistics/Pallet%20Verification/Pallet%20Verifications%20for%20stock%20reconciliation)  
+
+---
+## Pallet Verifications page and verification results
+<br/>
 The Pallet Verifications page shows you the comparison between each cold store/depot's stock file and the available pallet stock you have in the system for each cold store/depot.
 So, this is your stock reconciliation.
 
@@ -21,7 +35,7 @@ For this recon, the system categorises pallets into 4 different categories (Veri
 Okay great, so we have some pallets sitting under each of these verification results on the page, but what does it mean? Here's your quick guide:
 
 ### System and Freight Point File
-This one is quite obvious. It shows the number of pallets that matches between the cold store/depot's stock file and your available pallets in the system. 
+This result is quite obvious. It shows the number of pallets that matches between the cold store/depot's stock file and your available pallets in the system. 
 These are the ones that you don't need to investigate further.
 
 ### Only in System
@@ -33,7 +47,7 @@ Possible reasons for this:
 
 If this is the case, you want to chase down those PO files (if you expect to receive one) and get it processed. If you don't receive PO files from that specific cold store, you can always manually load the pallets with the "Populate Trip Leg" function on the order (once you've confirmed that the actual loading and your allocated pallets are the same).
 
-**Scenario 2:** The pallets were created in the system (pallet creation). The depot no longer has this pallet in stock for  you, perhaps because they did the intake for the wrong organisation code, or the pallet was damaged/destroyed, or relabeled. 
+**Scenario 2:** The pallets were created in the system (pallet creation). The depot no longer has this pallet in stock for you, perhaps because they did the intake for the wrong organisation code, or the pallet was damaged/destroyed, or relabeled. 
 
 For these pallets you'll have to get in touch with the depot and check what the situation really is. If you then do need to remove these pallets, you can unconfirm them from the pallet file entry with which they were created.
 
@@ -51,14 +65,16 @@ If the freighter trip leg and freight container was manually populated by mistak
 
 These pallets were allocated for transfer to another location, but the cold store/depot has not yet physically loaded them. They're still in the cold store/depot's stock file.
 
+---
+## Verification results illustrated
 
-## Example
-
-A stock file from cold store X was received. The file itself has 8 pallets in it. In ProduceLinc there are also 8 pallets, but the pallet IDs do not quite match between the stock file and the system.
+A stock file from Location X was received. The file itself has 8 pallets in it. In ProduceLinc there are also 8 pallets, but the pallet IDs do not quite match between the stock file and the system.
 The Pallet Verifications page show the following results:
 
 ![](/media/Verification%20Results.jpeg)
 
-And this is what the pallets for cold store X look like in ProduceLinc _versus_ the pallets in the stock file.
+And this is what the pallets for Location X look like in ProduceLinc _versus_ the pallets in the stock file.
 
 ![](/media/Verification%20Results%20illustrated.jpeg)
+
+---
