@@ -2,7 +2,7 @@
 grand_parent: Sales Allocations
 has_children: false
 layout: default
-nav_order: 44904
+nav_order: 45904
 parent: Guides
 title: How to update prices in Produce Prices page
 ---

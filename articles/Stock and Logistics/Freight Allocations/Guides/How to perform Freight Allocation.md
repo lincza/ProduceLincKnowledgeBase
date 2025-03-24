@@ -2,7 +2,7 @@
 grand_parent: Freight Allocations
 has_children: false
 layout: default
-nav_order: 43901
+nav_order: 44901
 parent: Guides
 title: How to perform Freight Allocation
 ---

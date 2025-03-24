@@ -7,7 +7,6 @@ parent: Guides
 title: How to interpret Pallet Verification Results
 ---
 
-
 # How to interpret Pallet Verification Results
 
 ### In this article

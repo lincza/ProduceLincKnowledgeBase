@@ -50,7 +50,7 @@ New Produce Season Codes must be created before you start packing pallets and re
 Use the search box to navigate to **Produce Seasons**.
 <br/>
 - Click on the magnifying glass in your Business Central landing page
-- Start typing “Produce Seasons” in the search box
+- Start typing "Produce Seasons" in the search box
 - Select Produce Seasons from the list of available options
 
 ![](/media/KB_Guide_ProduceSeasons_1_SearchBox.jpeg)
@@ -69,7 +69,7 @@ Choose **+ New** in the Produce Seasons page menu to create a new empty record.
 
 Now add a new Produce Season Code.
 
-This produce season code must be unique. Take into account that Produce Seasons are set up per Commodity Group, Inbound Channel ad Outbound Channel. You should thus not simply enter “2025” as your Produce Season Code. Rather make the code a combination of the Season, Commodity Group, Inbound Channel and Outbound Channel.
+This produce season code must be unique. Take into account that Produce Seasons are set up per Commodity Group, Inbound Channel ad Outbound Channel. You should thus not simply enter "2025" as your Produce Season Code. Rather make the code a combination of the Season, Commodity Group, Inbound Channel and Outbound Channel.
 
 Suggested structure for your Produce Season Code:  
 
@@ -79,7 +79,7 @@ Start your Produce Season Code with the **season** value, followed by the Commod
 
 In our example we are going to add 2x new produce seasons for Pome Fruit for the 2025 season. We are adding two seasons, since we will trade in both local and export pallets and thus have two different outbound channel codes for pome fruit.
 
-Based on the suggested structure above, we’ll make the Produce Season Code for our local pallets **2025PF-L-L**, and for our export pallets **2025PF-L-E**.
+Based on the suggested structure above, we will make the Produce Season Code for our local pallets **2025PF-L-L**, and for our export pallets **2025PF-L-E**.
 
 ![](/media/KB_Guide_ProduceSeasons_5_AddNewCode.jpeg)
 
@@ -93,7 +93,7 @@ Select the appropriate Commodity Group Code, Inbound Channel Code and Outbound C
 
 Add the appropriate Start Date and End Date for your new produce season.
 
-Make sure that your Start Date does not overlap with the end date of the “previous” season.
+Make sure that your Start Date does not overlap with the end date of the previous season.
 <br/>
 For example: if the 2024 season for local pome fruit ended on 31/12/2024, then the earliest start date for the 2025 season for local pome fruit is 01/01/2025.
 
@@ -101,9 +101,9 @@ For example: if the 2024 season for local pome fruit ended on 31/12/2024, then t
 
 ### STEP 6
 
-Add a “Grouping” value. The “Grouping” field is optional and is used to provide a common overall season in the format of a Year.
+Add a Grouping value. The Grouping field is optional and is used to provide a common overall season in the format of a Year.
 
-Example: We have four Produce Season Codes for 2025 (pome fruit local and export, stone fruit local and export). For reporting purposes, we want to “tie” all four these season codes together as the 2025 season.
+Example: We have four Produce Season Codes for 2025 (pome fruit local and export, stone fruit local and export). For reporting purposes, we want to tie all four these season codes together as the 2025 season.
 
 ![](/media/KB_Guide_ProduceSeasons_8_GroupingExample.jpeg)
 
@@ -111,9 +111,9 @@ Example: We have four Produce Season Codes for 2025 (pome fruit local and export
 
 ### STEP 7
 
-Check the box under “Current”.
+Check the box under _Current_.
 <br/> 
-A confirmation message will appear, asking if you want to proceed with updating the “current” field for existing pallets that may exist in the pallet line archive. Choose Yes in this message.
+A confirmation message will appear, asking if you want to proceed with updating the current field for existing pallets that may exist in the pallet line archive. Choose Yes in this message.
 
 ![](/media/KB_Guide_ProduceSeasons_8b_MarkAsCurrent.jpeg)
 
@@ -128,10 +128,10 @@ Choose **Build Produce Season Dates** in the page menu. This rebuilds a backgrou
 
 ![](/media/KB_Guide_ProduceSeasons_10_BuildProduceSeasonDates.jpeg)
 
-Performing this step is crucial. If you don’t perform this step, the system will not allow you to register/create new pallets for the new produce seasons you have just added.
+Performing this step is crucial. If you do not perform this step, the system will not allow you to register/create new pallets for the new produce seasons you have just added.
 
 If you **do** forget to perform this step before you close the page, simply navigate to the page again, and then choose Build Produce Season Dates. 
 
-You don’t need to select specific produce seasons for which to rebuild the background produce season dates – the system will automatically rebuild the dates for all the produce seasons. 
+You do not need to select specific produce seasons for which to rebuild the background produce season dates. The system will automatically rebuild the dates for all the produce seasons. 
 
 ---

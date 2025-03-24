@@ -2,7 +2,7 @@
 grand_parent: Stock and Logistics
 has_children: false
 layout: default
-nav_order: 44001
+nav_order: 45001
 parent: Sales Allocations
 title: Sales Allocation
 ---

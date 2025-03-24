@@ -6,7 +6,7 @@ nav_order: 21901
 parent: Guides
 title: How to create new data in Linc Lookup Values
 ---
-   
+
 # How to create new data in Linc Lookup Values
 
 
@@ -27,12 +27,12 @@ Linc Lookup Values is where most master data relating to produce and logistics l
 
 For more in-depth information on Linc Lookup Values (including a list of all the types of master data that is stored in this table) please read our documentation article on [Linc Lookup Values](/articles/Configuration/Master%20Data/Linc%20Lookup%20Values)  
 
-From time to time, you may need to add new master data records in this table – for instance when you start receiving pallets from a new packhouse and the packhouse code does not yet exist in your master date; or when a new variety code is being packed that you must add to Linc Lookup Values.
+From time to time, you may need to add new master data records in this table � for instance when you start receiving pallets from a new packhouse and the packhouse code does not yet exist in your master date; or when a new variety code is being packed that you must add to Linc Lookup Values.
 
 In this step-by-step guide we will:
 
-- Show you how to add a new master data record in Linc Lookup Values for master data that does not have a “parent”
-- Show you how to add a new master data record in Linc Lookup Values for master data that does have a related “parent”  
+- Show you how to add a new master data record in Linc Lookup Values for master data that does not have a parent
+- Show you how to add a new master data record in Linc Lookup Values for master data that does have a related parent  
 
 
 **What do we mean with "parents"?**  
@@ -67,7 +67,7 @@ In the Linc Lookup Values page, select the filter icon. This will open the filte
 
 ### STEP 4
 
-Click on **+ Filter** and then choose **Lookup Field Name**. By first filtering Linc Lookup Values for the ‘type’ of master data you want to add, you’ll minimise errors when creating a new record.
+Click on **+ Filter** and then choose **Lookup Field Name**. By first filtering Linc Lookup Values for the type�of master data you want to add, you will minimise errors when creating a new record.
 
 ![](/media/Configuration_MasterData_Guide_LLV_4.%20Open%20filter%20options%20in%20Linc%20Lookup%20Values.jpeg)
 
@@ -75,14 +75,14 @@ Click on **+ Filter** and then choose **Lookup Field Name**. By first filtering 
 
 ### STEP 5
 
-Start typing the name of the Linc Lookup Field for which you want to add a new master data record. As you type, the list of available options will start appearing. Once you see the appropriate “Name”, click on it.
-In our example, we will start typing “Packhouse Code” and then select it from the available options in the list.
+Start typing the name of the Linc Lookup Field for which you want to add a new master data record. As you type, the list of available options will start appearing. Once you see the appropriate Name, click on it.
+In our example, we will start typing "Packhouse Code" and then select it from the available options in the list.
 
 ![](/media/Configuration_MasterData_Guide_LLV_6.%20Find%20the%20relevant%20Lookup%20Field%20Name.jpeg)
 
 ### STEP 6
 
-Click on **+ New** in the page menu. This will insert an empty new record – but because you have already filtered the Linc Lookup Values for the **Lookup Field Name** (in our example “Packhouse Code”), the system expects that you want to add a new record for that specific Lookup Field Name and automatically fills that in for you.
+Click on **+ New** in the page menu. This will insert an empty new record; but because you have already filtered the Linc Lookup Values for the **Lookup Field Name** (in our example Packhouse Code), the system expects that you want to add a new record for that specific Lookup Field Name and automatically fills that in for you.
 
 ![](/media/Configuration_MasterData_Guide_LLV_7.%20Choose%20New%20to%20add%20new%20record.jpeg)
 
@@ -108,12 +108,12 @@ If you need to add more than one new master data record, simply repeat steps 4 t
 
 ## Add new Linc Lookup Value master data where a parent is required  
 <br/>
-In our example below, we are going to add a new Variety Code. Variety Codes are linked to “parent” Variety Group Codes. 
+In our example below, we are going to add a new Variety Code. Variety Codes are linked to parent Variety Group Codes. 
 
 ### STEP 1
 
 Navigate to Linc Lookup Values and filter for the relevant **Lookup Field Name** (in our example, we have filtered to Variety Code).
-Then choose **+ New** in the page menu to create a new “empty” record.
+Then choose **+ New** in the page menu to create a new empty record.
 
 ![](/media/Configuration_MasterData_Guide_LLV_11.%20New%20with%20Parent%20-%20choose%20New.jpeg)
 
@@ -136,7 +136,7 @@ When you see the correct Parent Lookup Field Name in the list, select it.
 ### STEP 3
 
 For master data records that **do** have parents, you must first specify the Parent Code before you enter the Code for your new record.
-In our example we are adding a new pear variety; so we first choose “PR” (Pears) as the parent Variety Group Code.
+In our example we are adding a new pear variety; so we first choose �PR� (Pears) as the parent Variety Group Code.
 
 ![](/media/Configuration_MasterData_Guide_LLV_14.%20New%20with%20Parent%20-%20select%20parent%20code%20first.jpeg)
 

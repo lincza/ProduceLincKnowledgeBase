@@ -600,5 +600,4 @@ _Examples of titles for documents in Linc Lookup Values_
 |Trade Cr. Memo Title      |                         |            |TRADE-CR-2  |Credit Memo                    |
 |Trade Cr. Memo Title      |                         |            |TRADE-CR-3  |Tax Credit Note                |
 
----  
-
+---

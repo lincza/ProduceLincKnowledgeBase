@@ -2,7 +2,7 @@
 grand_parent: Stock and Logistics
 has_children: false
 layout: default
-nav_order: 43002
+nav_order: 44002
 parent: Freight Allocations
 title: Freighter Trip Legs
 ---

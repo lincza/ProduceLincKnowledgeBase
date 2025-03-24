@@ -2,7 +2,7 @@
 grand_parent: Stock and Logistics
 has_children: false
 layout: default
-nav_order: 43001
+nav_order: 44001
 parent: Freight Allocations
 title: Freight and Logistics Management
 ---

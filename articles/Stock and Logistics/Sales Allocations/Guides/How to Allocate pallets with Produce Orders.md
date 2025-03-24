@@ -2,7 +2,7 @@
 grand_parent: Sales Allocations
 has_children: false
 layout: default
-nav_order: 44902
+nav_order: 45902
 parent: Guides
 title: How to Allocate pallets with Produce Orders
 ---

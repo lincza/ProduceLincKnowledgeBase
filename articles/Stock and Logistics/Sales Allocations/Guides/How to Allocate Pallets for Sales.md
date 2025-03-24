@@ -2,7 +2,7 @@
 grand_parent: Sales Allocations
 has_children: false
 layout: default
-nav_order: 44901
+nav_order: 45901
 parent: Guides
 title: How to Allocate Pallets for Sales
 ---

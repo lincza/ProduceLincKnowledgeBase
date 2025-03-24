@@ -51,4 +51,3 @@ Produce Seasons are marked as *Current* or *Non-Current*. This has the following
 * The system then finds all pallet lines that are associated with current produce season codes and rebuilds these lines to the pallet line archive with their latest information.
 
 Thus, a produce season code should only be marked as non-current in **Produce Seasons** once all transactions for the pallet have been completed; including the final payment to the producer.
-

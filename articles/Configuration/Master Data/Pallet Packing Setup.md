@@ -26,7 +26,7 @@ title: Pallet Packing Setup
 ## Pallet Packing Setup purpose
 <br/>
 This document provides an overview of Pallet Packing Setup master data, including guidelines for setting this up and information on when and how this master data is used.
-Pallet Packing Setup is used to store and maintain two ‘facts’ or rules for your various outer pack codes:
+Pallet Packing Setup is used to store and maintain two �facts� or rules for your various outer pack codes:
 
 - the default pallet quantity for different outer pack codes and pallet configurations
 - the net weight, gross weight and standard outer pack conversions rates for outer packs
@@ -55,12 +55,12 @@ Note that the fields for Net Weight per Outer Pack, Gross Weight per Outer Pack 
 ### How are pallet quantity rules used?
 <br/>
 When pallet files are received, the system validates the total number of cartons against your pallet quantity rule to prevent incomplete pallets from being confirmed as stock.
-Let’s illustrate with an example using one of the rules in the image above:  
+Let�s illustrate with an example using one of the rules in the image above:  
 
 We have defined a pallet quantity rule that says apples in M18T cartons should be packed to a total of 56 cartons if packed to high-cube on a standard pallet base.
 A pallet file is received with Pallet X for M18T apples, but it only has 50 cartons on it.  
 
-In this scenario ProduceLinc will write an error message that states that the quantity of the pallet does not match the default pallet packing setup. This error message can be “ignored” – in which case ProduceLinc will remove the error and allow the pallet to be confirmed.
+In this scenario ProduceLinc will write an error message that states that the quantity of the pallet does not match the default pallet packing setup. This error message can be ignored; in which case ProduceLinc will remove the error and allow the pallet to be confirmed.
 
 _Pallet File with Pallet ID showing total of 50 cartons for the pallet_
 ![](/media/Configuration_MasterData_PalletPackingSetup%20-%202.%20StackingVariance_ImportBufferExample.jpeg)
@@ -68,7 +68,7 @@ _Pallet File with Pallet ID showing total of 50 cartons for the pallet_
 _Error message_
 ![](/media/Configuration_MasterData_PalletPackingSetup%20-%203.%20StackingVariance_ImportBufferIgnorableError.jpeg)
 
-If your business principle is to allow incomplete pallets into stock and you don’t want these errors to show, you can enable the **Suppress Pallet Qty Checking** in Linc Setup.
+If your business principle is to allow incomplete pallets into stock and you don�t want these errors to show, you can enable the **Suppress Pallet Qty Checking** in Linc Setup.
 
 ![](/media/Configuration_MasterData_PalletPackingSetup%20-%204.%20LincSetup_SuppressPalletQuantitySetup.jpeg)
 
@@ -86,10 +86,10 @@ The image below is an example of the weight rule for M18T cartons for apples.
 ![](/media/Configuration_MasterData_PalletPackingSetup%20-%205.%20OuterPackWeightRule_example.jpeg)
 
 - **Net Weight per Outer Pack:** specifies the system net weight of the produce in the carton, excluding the packaging material.  
-- **Gross Weight per Outer Pack:** specifies the system gross weight of the carton – i.e. the produce plus the theoretical weight of the packaging.  
+- **Gross Weight per Outer Pack:** specifies the system gross weight of the carton; i.e. the produce plus the theoretical weight of the packaging.  
 - **Standard Outer Pack Conversion:** this is used to calculate the Standard Outer Pack Quantity for pallets.  
 
-Note that **no values** are filled in for Pallet Base Code, Pallet Height Code and Quantity per Pallet for the ‘weight’ rule.
+Note that **no values** are filled in for Pallet Base Code, Pallet Height Code and Quantity per Pallet for the weight rule.
 
 ---
 ### How is the Net Weight per Outer Pack used?
@@ -124,13 +124,13 @@ You want to compare number of cartons sold between customer A and B.
 You sold 10 000 cartons of M12T apples to customer A, and 10 000 cartons of M18T to customer B.An M12T apple carton weighs approximately 12.5 kg, while an M18T apple carton weighs 18.25.  
 
 By simply comparing the number of actual cartons, your reporting results inaccurately show that you have exported equal volumes to both customers.
-But if you choose a ‘standard equivalent’ for each commodity you can… well… compare apples to apples.
+But if you choose a standard equivalent for each commodity you can well compare apples to apples.
 
-In our example the ‘standard equivalent pack’ for apples weighs 12.5 kg. We thus want to convert the quantities for all apple outer packs to a 12.5 kg euiqvalent. 
+In our example the standard equivalent pack for apples weighs 12.5 kg. We thus want to convert the quantities for all apple outer packs to a 12.5 kg euiqvalent. 
 So we give the weight rule for M18T apples a standard outer pack conversion of 1.46 (The M18T carton weight of 18.25 divided by standard weight of 12.5).
 This means that every M18T apple carton is the equivalent of 1.46 "standard cartons" of 12.5kg.
 For the M12T apple carton we make the conversion factor 1, since it weighs the standard apple carton weight of 12.5 kg.
 
-Using this standard outer pack conversion factor the 10 000 cartons of M18T apples to customer B then becomes 14 600 ‘standard cartons’.
+Using this standard outer pack conversion factor the 10 000 cartons of M18T apples to customer B then becomes 14 600 standard cartons.
 The 10 000 M12T cartons sold to customer B remains 10 000 standard cartons.
-By comparing customer A’s 14 600 standard equivalent cartons to customer B’s 10 000 we get a more accurate result.
+By comparing the 14 600 standard equivalent cartons of customer A to the 10 000 for customer B, we get a more accurate result.

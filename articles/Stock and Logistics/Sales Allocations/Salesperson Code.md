@@ -2,7 +2,7 @@
 grand_parent: Stock and Logistics
 has_children: false
 layout: default
-nav_order: 44002
+nav_order: 45002
 parent: Sales Allocations
 title: Salesperson Code
 ---

@@ -2,7 +2,7 @@
 grand_parent: Sales Allocations
 has_children: false
 layout: default
-nav_order: 44903
+nav_order: 45903
 parent: Guides
 title: How to select and add pallets to a Sales Allocation Batch
 ---
