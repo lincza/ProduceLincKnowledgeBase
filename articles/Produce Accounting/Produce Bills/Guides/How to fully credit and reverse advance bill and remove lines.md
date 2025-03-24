@@ -7,20 +7,34 @@ parent: Guides
 title: How to fully credit and reverse advance bill and remove lines
 ---
 
-How to fully credit and reverse advance bill and remove lines
+# How to fully credit and reverse advance bill and remove lines
 
-1. If Advance Bill is in "Posted' status, reopen the bill
-2. Bill will now be in an "Open" status
-3. Calculate the Charges
-4. Calculate the Bill
-5. Status of Bill is now "Bill calculated"
-6. Now you can change the posting amounts (PCY)
-7. Posting amounts (PCY) will be the opposite of what was posted as an advance (for example **Posted** Amount (PCY)  10,000.00 per line, now the **Posting** Amount (PCY) will be -10,000.00 per line)
-8. Check that the LCY Posting Amount is also fully reversed
-9. Remember to supply a credit reason
-10. Release and Post the advance bill (to actually put the posting amounts into the system)
-11. The Advance bill will now be zero (0.00) - check the factbox to make sure all is correct
-12. Reopen the bill again
-13. Delete the pallet lines from the advance bill, for the bill to be empty
-14. Release and Post the Bill
-15. Using the Pallet Editor, change the Purchase Currency to blank (ZAR), if it was incorrectly USD or EUR for the lot billing party.
+<br/>
+**Step 1:** If the Advance Produce Bill is in "Posted' status, reopen the bill. The advance produce bill will now be in _Open_ status
+<br/>
+<br/>
+**Step 2:** Calculate the Charges
+<br/>
+<br/>
+**Step 3:** Calculate the Bill. Status of the advance bill will now be _Bill Calculated_
+<br/>
+<br/>
+**Step 4:** Now change the _Posting Amount (PCY)_ on the lines for which you want to fully reverse the advance. This can either be on all the lines or only some of the lines. Fill in the _Posting Amount (PCY)_ with the full negative of what was posted as an advance. If _Posted Adv. Amount (PCY)_ is eg. 10,0000.00 for the line, enter -10,000.00 in _Posting Amount (PCY)_.
+<br/>
+<br/>
+**Step 5:** Check that the _Posting Amount (LCY)_ is also the full negative of _Posted Adv. Amount (LCY)_. If they are not, then you are likely using a different exchange rate for the reversal than the exchange rate that was used for the initial posting. You can re-open the bill again, change the currency factor to match that of the initial posting and repeat step 2 to step 3 again.
+<br/>
+<br/>
+**Step 6:** Remember to supply a _Posting Credit Reason Code_ for the lines for which you want to post the credit.
+<br/>
+<br/>
+**Step 7:** Release and Post the advance bill. The lines for which you entered full reversal amounts should now have zero under _Posted Adv. Amount (PCY)_.
+<br/>
+<br/>
+**Step 8:** Reopen the bill again. (The produce bill must be in _Open_ status to allow you to delete lines.)
+<br/>
+<br/>
+**Step 9:** Delete the relevant lines from the advance bill (the ones you fully reversed).
+<br/>
+<br/>
+**Step 10:** Release and Post the Bill. This last action is not to post further amounts, but simply to put the advance produce bill in a _Posted_ status again.
