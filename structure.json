@@ -220,6 +220,11 @@
         "files": [
           "Pallet line archive - Reporting on income, costs, and gross profit.md"
         ]
+      },
+      "Other Reporting": {
+        "files": [
+          "Pallet Production - Lot Specific Report.md"
+        ]
       }
     },
     "Integrations": {}
