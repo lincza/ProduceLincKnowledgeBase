@@ -18,7 +18,7 @@ title: How to create new data in Linc Lookup Values
 
 Related articles
 <br/>
-[Linc Lookup Values](/articles/configuration/Master%20Data/Linc%20Lookup%20Values)
+[Linc Lookup Values](/articles/Configuration/Master%20Data/Linc%20Lookup%20Values)
 
 ---
 ## Quick Overview
