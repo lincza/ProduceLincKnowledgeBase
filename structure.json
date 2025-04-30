@@ -197,16 +197,11 @@
         "Guides": {
           "files": [
             "How to Generate Produce Bills.md",
-            "How to Post Produce Bill Invoices.md",
-            "How to add pallets to existing Produce Bills.md",
-            "How to apply Invoices and Credit Memo's.md",
-            "How to credit charges and posted bill amounts.md",
             "How to export the produce bill sheet and import adjustments.md",
-            "How to fully credit and reverse advance bill and remove lines.md",
-            "How to process Bills in bulk.md",
-            "How to remove pallets from a cost produce bill.md",
-            "How to send Payment Advices.md"
-          ]
+            "How to fully credit and reverse advance bill and remove lines.md",            
+            "How to fully credit and remove consignment cost bill lines.md",
+            "How to fully credit and remove purchase cost bill lines.md"
+           ]
         }
       },
       "Produce Accounting and Financials": {
