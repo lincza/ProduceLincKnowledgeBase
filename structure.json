@@ -100,7 +100,8 @@
       "Produce Orders": {
         "files": [
           "Outbound Produce Orders.md",
-          "Transfer Produce Orders.md"
+          "Transfer Produce Orders.md",
+          "Limit vendors to specific currencies.md"
         ],
         "Guides": {
           "files": [
